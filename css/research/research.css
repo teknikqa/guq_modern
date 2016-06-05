@@ -1,0 +1,703 @@
+/* --- Research proejcts LB Block --- */
+#quicktabs-research_projects_tabs {
+  margin-top: 22px;
+}
+
+#quicktabs-research_projects_tabs .field-name-field-researchers .field-collection-view {
+  height: 1em;
+  margin: 0;
+  border-bottom: 0;
+}
+
+#quicktabs-research_projects_tabs .node-research-project.view-mode-research_teaser {
+  min-height: 145px;
+  margin-top: 20px;
+}
+
+#quicktabs-research_projects_tabs h4 {
+  margin-top: 0;
+}
+
+.node-research-person .field-name-title {
+  float: left;
+}
+
+.node-research-person .field-name-field-school {
+  float: left;
+  padding-left: 5px;
+}
+
+.node-research-person .field-name-field-school .field-item:before {
+  content: "(";
+  display: inline-block;
+  float: left;
+}
+
+.node-research-person .field-name-field-school .field-item:after {
+  content: ")";
+  display: inline-block;
+  float: left;
+  position: absolute;
+}
+
+.view-mode-research_teaser .field-collection-container {
+  border-bottom: 0;
+}
+
+.view-mode-research_teaser .field-collection-container .field-items .field-item {
+  margin-bottom: 0;
+}
+
+.field-name-field-person-type {
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.field-name-field-person-type.faculty {color: #8a002e;}
+.field-name-field-person-type.student {color: #ce8600;}
+.field-name-field-person-type.affiliate,
+.field-name-field-person-type.fellow {color: #6c9fd1;}
+
+.field-name-field-person-type .type {
+  display: none;
+}
+
+.footer-description.row {
+  border-top: 1px solid #CCC;
+  margin: 12px 8px 0;
+  padding-top: 10px;
+  font-size: 0.85em;
+  line-height: 1.7em;
+}
+
+.footer-description.row .note {
+  border-right: 1px solid #CCC;
+  padding-right: 15px;
+}
+
+.footer-description.row .note.last {
+  border: 0;
+  padding-right: 0;
+}
+
+/** <Faculty Research Projects: #RA:2014-09-22: > **/
+.panel-region-right .views-exposed-form .form-control {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.view-display-id-faculty_research_projects_pane .views-row {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9EAA9E;
+}
+/** </Faculty Research Projects> **/
+
+/* --- Research fellows & faculty --- */
+.research-fellows .research-user-row,
+.research-faculty .research-user-row{
+  float: left;
+  margin: 0px 10px 15px 0px;
+  width: 130px;
+}
+
+.research-fellows .group-basic-information,
+.research-faculty .group-basic-information {
+  padding: 0px 4px;
+}
+
+.research-fellows .user-fellow-name,
+.research-faculty .user-fellow-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 0px 4px;
+  word-wrap: break-word;
+}
+
+.field-name-field-referenced-user .user-fellow-name {
+  font-weight: bold;
+}
+
+.research-fellows .group-job-description,
+.research-faculty .group-job-description {
+  word-wrap: break-word;
+  padding: 0px 4px;
+}
+
+.research-faculty .views-exposed-form .views-exposed-widget .form-submit {
+  margin: 0px;
+}
+
+.research-faculty .views-exposed-form {
+  margin-bottom: 20px;
+}
+
+.event-by-category .full-width .node-event {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.panel-region-middle .event-by-category .full-width .node-event {
+  border: 0px none;
+}
+
+/** <Publications: #RA:2014-09-15:> **/
+.view-id-publications.view-display-id-publications_content_pane .row,
+.view-id-publications.view-display-id-publications_for_conferences_pane .row {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #000;
+}
+/** </Publications> **/
+
+/** <Publication full page: #RA:2014-09-15:> **/
+.view-publications.view-display-id-publication_block .views-field-field-image {
+  width: 14%;
+  float: left;
+  margin-right: 10px;
+}
+
+.view-publications.view-display-id-publication_block h3 {
+  margin-top: 0;
+}
+
+.view-publications.view-display-id-publication_block .views-field-biblio-abst-e h4 {
+  text-align: center;
+}
+/** </Publication full page> **/
+
+/** <Research project team: #RA:2014-09-14:> **/
+.panel-separator {
+  height: 0;
+  min-height: 0;
+}
+
+.research-project-team .row {
+  position: relative;
+  display: block;
+  min-height: 200px;
+  margin-bottom: 15px;
+}
+
+.research-project-team .researcher-picture {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  float: left;
+}
+
+.research-project-team .researcher-bio {
+  padding-right: 15px;
+}
+
+.research-project-team .researcher-role {
+  padding-right: 10px;
+  margin-bottom: 11px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.research-project-team .researcher-role:after {
+  content:':';
+}
+
+.research-project-team .researcher-name {
+  margin-bottom: 11px;
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+}
+/** </Research project team> **/
+
+/** <Research project full page:  #RA:2014-09-22: > **/
+.node-type-research-project .primary-column,
+.node-type-research-project-page .primary-column,
+.node-type-research-project .basic-page-main-content,
+.node-type-research-project-page .basic-page-main-content {
+  padding-top: 5px;
+}
+
+.pane-research-project-pages .view-mode-teaser .field-name-field-image {
+  padding-top: 42px;
+}
+/** </Research project full page> **/
+
+/** <Research project book pages: #RA:2014-09-14:> **/
+.research-project-pages .views-row {
+  min-height: 112px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.node-research-project-page.view-mode-full .research-project-page-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.node-research-project-page.view-mode-full .research-project-page-image img {
+  width: 100%;
+}
+
+.node-research-project-page.view-mode-full .research-project-page-image {
+  float: left;
+}
+
+.pane-content .node-research-project-page.view-mode-full  ul li:before {
+  position: relative;
+  margin-right: 2px;
+  top: 0;
+}
+
+.pane-node-book-children ul {
+  padding-left: 0;
+}
+
+.pane-node-book-children ul li {
+  padding-left: 0;
+}
+
+.pane-node-book-children ul li:before {
+  content: "";
+  position: absolute;
+  font-family: FontAwesome;
+  left: 0px;
+  font-size: 10px;
+  top: 0;
+  line-height: 3.5em;
+}
+
+.pane-node-book-children ul li:hover:before {
+  color: #89002e;
+  display: blocks;
+}
+
+#block-book-navigation.block-book {
+  background: #f8f7f6;
+  border: 1px solid #bababa;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#block-book-navigation.block-book h3 {
+  font-family: "adobe-caslon-pro",georgia;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 7px;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #002147;
+}
+
+#block-book-navigation.block-book ul {
+  padding-left: 0;
+}
+
+#block-book-navigation.block-book ul li {
+  padding-left: 0;
+}
+
+#block-book-navigation.block-book ul li:before {
+  content: '';
+}
+
+li.book_printer,
+li.translation_en,
+li.translation_ar {
+  display: none !important;
+}
+/** </Research project book pages> **/
+
+/* ---  Office of research  --- */
+.research-office-item,
+.user-view-item {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  display: inline-block;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.research-office-item .research-office-image,
+.user-view-item .user-view-image {
+  float: left;
+  width: 130px;
+  margin: 0px 10px 10px 0px;
+}
+
+.research-office-item .research-office-name,
+.user-view-item .user-view-name {
+  margin: 0px;
+}
+
+.research-office-item .research-office-title,
+.user-view-item .user-view-title {
+  color: #777;
+  font-size: 13px;
+  margin: 3px 0px 10px 0px;
+}
+
+.research-office-item .research-office-bio,
+.user-view-item .user-view-bio {
+  margin: 10px 0px;
+}
+
+.research-office-item .research-office-bio .more-link,
+.user-view-item .user-view-bio .more-link {
+  margin: 10px 0px;
+  text-align: right;
+  color: #89002E;
+  display: block;
+}
+
+.research-office-item .research-office-bio .more-link:after,
+.user-view-item .user-view-bio .more-link:after {
+  content: "\f138";
+  font-family: FontAwesome;
+  padding: 0px 0px 0px 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---  Meet the experts --- */
+.meet-experts-item .views-field-field-user-languages,
+.meet-experts-item .views-field-field-user-expertise {
+  margin-bottom: 10px;
+}
+
+.meet-experts-item .views-label-field-user-languages,
+.meet-experts-item .views-label-field-user-expertise {
+  font-weight: bold;
+}
+
+.meet-experts-item .meet-experts-expertise ul {
+  padding: 0px;
+  display: inline-block;
+}
+
+.meet-experts-item .meet-experts-expertise ul li:before {
+  position: relative;
+  top: 0px;
+  padding-right: 5px;
+}
+
+/* ---  funding source  --- */
+.funding-source .views-group {
+  font-family: "adobe-caslon-pro",georgia;
+  color: #002147;
+  margin-bottom: 20px;
+  padding: 3px 0 8px;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  background: url('../../images/bg/heading-bg.png') repeat-x bottom left;
+}
+
+.funding-source-item {
+  margin-bottom: 30px;
+  clear: both;
+  display: inline-block;
+}
+
+.funding-source-item.views-row-last {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.funding-source-title {
+  margin-top: 0px;
+}
+
+.funding-source-logo {
+  margin-bottom: 0px;
+}
+
+.group-basic-information .funding-source-title {
+  margin-bottom: 0px;
+}
+
+.group-basic-information .funding-source-short {
+  font-style: italic;
+}
+
+.group-basic-information .funding-source-body,
+.awards-fellowship-body,
+.student-highlight-body {
+  margin-top: 5px;
+  word-wrap: break-word;
+}
+
+.node-award-and-fellowship .awards-fellowship-body,
+.node-student-highlight .student-highlight-body {
+  margin-bottom: 15px;
+}
+
+.funded-by-item,
+.awards-fellowship-item,
+.student-highlight-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.funded-by-item.views-row-last,
+.awards-fellowship-item.views-row-last,
+.student-highlight-item.views-row-last {
+  border-bottom: none;
+}
+
+.node-award-and-fellowship .awards-fellowship-title,
+.node-student-highlight .student-highlight-title {
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.funded-by-item .research-fund-title,
+.awards-fellowship-item .awards-fellowship-title,
+.student-highlight-item .student-highlight-title,
+.research-pro-title {
+  margin: 0px;
+  font-size: 17px;
+}
+
+.funded-by-item .research-fund-date,
+.awards-fellowship-item .awards-fellowship-date,
+.student-highlight-item .student-highlight-date {
+  margin-bottom: 5px;
+}
+
+.funded-by-item .label-inline,
+.funded-by-item .research-fund-source,
+.funded-by-item .research-fund-subject {
+  float: left;
+}
+
+.funded-by-item .label-inline.research-fund-label,
+.label-inline.research-project-label {
+  float: none;
+  clear: left;
+  display: block;
+  cursor: pointer;
+}
+
+.funded-by-item .label-inline.research-fund-label:before,
+.label-inline.research-project-label:before {
+  color: #002147;
+  float: left;
+  margin-right: 5px;
+  content: "\f0fe";
+  font-family: FontAwesome;
+}
+
+.funded-by-item .label-inline.research-fund-label.label-expanded:before,
+.label-inline.research-project-label.lable-expanded:before {
+  content: "\f146";
+}
+
+.funded-by-item .research-fund-subject,
+.funded-by-item .research-fund-status,
+.research-project-status {
+  font-weight: bold;
+}
+
+.funded-by-item .research-fund-status {
+  margin-bottom: 10px;
+}
+
+.funded-by-item .research-fund-person,
+.awards-fellowship-person,
+.student-highlight-person,
+.research-pro-person {
+  margin-left: 15px;
+}
+
+.funded-by-item .research-fund-id {
+  clear: both;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.funded-by-item .research-fund-id:before {
+  content: '(';
+}
+
+.funded-by-item .research-fund-id:after {
+  content: ')';
+}
+
+.awards-fellowship-item .field-collection-container,
+.node-award-and-fellowship .field-collection-container,
+.group-right-owlslider .field-collection-container,
+.funded-by-item .field-collection-container,
+.student-highlight-item .field-collection-container,
+.node-student-highlight .field-collection-container {
+  clear: both;
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+
+.view-mode-research_teaser .field-collection-container {
+  border-bottom: 0;
+}
+
+.view-footer .footer-description.row {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  margin: 12px 8px;
+  padding: 10px 0px;
+  font-size: 0.85em;
+  line-height: 1.7em;
+}
+
+.view-footer .footer-description.row .note {
+  border-right: 1px solid #CCC;
+  padding-right: 15px;
+}
+
+.view-footer .footer-description.row .note.last {
+  border: 0;
+  padding-right: 0;
+}
+
+.field-collection-container .field-name-field-referenced-user {
+  float: left;
+}
+
+.funded-by-item .field-collection-container .field-item,
+.group-right-owlslider .field-collection-container .field-item,
+.awards-fellowship-lp .field-collection-container .field-item,
+.node-award-and-fellowship .field-collection-container .field-item,
+.student-highlight-lp .field-collection-container .field-item,
+.node-student-highlight .field-collection-container .field-item {
+  margin-bottom: 0px;
+}
+
+.funded-by-item .research-fund-body,
+.research-project-body {
+  display: none;
+  margin-top: 7px;
+}
+
+/* --- Awards and fellowship --- */
+.awards-fellowship-image,
+.student-highlight-image {
+  float: left;
+  margin: 0px 2% 15px 0px;
+  width: 25%;
+  max-width: 130px;
+}
+
+.awards-fellowship-item .group-basic-information,
+.student-highlight-item .group-basic-information,
+.node-award-and-fellowship .group-basic-information,
+.node-student-highlight .group-basic-information {
+  display: table;
+}
+
+.research-projects .view-filters {
+    margin-bottom: 20px;
+}
+
+.research-projects .views-row {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.research-projects h4 {
+    margin-top: 0;
+}
+
+.research-projects .views-field-field-image {
+    float: left;
+    margin-right: 15px;
+}
+
+/************* research tabs *******************/
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist {
+  width: 15%;
+  padding: 0px;
+}
+
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li {
+  padding: 10px 20px;
+}
+
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li a {
+  text-align: left;
+  font-size: 18px;
+}
+
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li.active a {
+  color: #89002e;
+}
+
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li.active {
+  background: #fff;
+  border-bottom: 1px solid #a5a5a5;
+  border-top: 1px solid #a5a5a5;
+  border-left: 1px solid #a5a5a5;
+}
+
+#quicktabs-research_center .quicktabs_main.quicktabs-style-navlist {
+  width: 85%;
+  background: #fff;
+  border: 1px solid #a5a5a5;
+  padding: 0px 30px 20px;
+}
+
+/************* research tabs views *******************/
+.research-tab .views-field-field-image {
+  float: left;
+  margin-right: 15px;
+}
+
+.research-tab .views-row {
+  margin-bottom: 25px;
+  padding-bottom: 26px;
+  border-bottom: 1px dotted #a5a5a5;
+  clear: both;
+  float: left;
+}
+
+.research-tab .view-footer {
+  clear: both;
+}
+
+.research-center-top h2 {
+  margin-top: 0px; 
+  margin-bottom: 5px;
+}
+
+.research-center-top {
+  padding: 30px 0px;
+}
+
+.research-center-top p {
+  margin: 0px;
+}
+
+#mini-panel-research_center h2.pane-title {
+  padding: 10px;
+  border-bottom: 1px dotted #a5a5a5;
+  border-top: 1px dotted #a5a5a5;
+}
+
+.publications-tab .view-footer {
+  border-top: 1px dotted #a5a5a5;
+  padding-top: 25px;
+  margin-top: 20px;
+}

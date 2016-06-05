@@ -1,0 +1,102 @@
+
+/** <Poll> **/ 
+.pane-block.pane-poll-recent.pane-poll .pane-content .form-submit {
+  float: left;
+}
+
+.pane-block.pane-poll-recent.pane-poll .pane-content .links {
+  padding-left: 0;
+  padding-right: 5px;
+}
+/** </Poll> **/ 
+
+/** employees downloadable resources **/
+.view-downloadable-resources .download-resource-title {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.view-downloadable-resources .download-resource-title:before {
+  content: '»';
+  margin-right: 0;
+  margin-left: 5px;
+  left: auto;
+  right: 0;
+}
+
+.view-downloadable-resources .download-resource-title a {
+  padding-left: 0;
+  padding-right: 12px;
+}
+/** end employees downloadable resources **/
+
+/** Announcements **/
+.announcement-title {
+  margin: 5px 0 0 10px ;
+}
+
+.announcement-body .more-link {
+  text-align: left;
+}
+/** end announcements **/
+
+/* --- In this section - Menu block --- */
+.this-section-mb-style ul.menu li.expanded  ul {
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+.this-section-mb-style ul.menu li.expanded.active-trail ul {
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+.this-section-mb-style .nav > li > a {
+  padding: 4px 0 4px 16px;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.this-section-mb-style .nav li.leaf a {
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+.this-section-mb-style span.nav-class-caret {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/** Updated sections **/
+.updated-sections-item .updated-section-title:before {
+  margin-right: 0;
+  margin-left: 5px;
+}
+/** end updated sections **/
+
+/** employees events **/
+.emp-events-sidebar.news-tabs .group-right-group {
+  margin-left: 0;
+  margin-right: 80px;
+}
+
+.emp-events-sidebar.news-tabs .group-right-group .field-type-geofield {
+  margin-right: 0;
+  margin-left: 5px;
+  float: right;
+}
+
+.emp-events-sidebar.news-tabs .group-right-group .field-name-field-event-venue {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+/** end employees events **/
+.emp-add-event a:before {
+  padding-left: 5px;
+}
+
+.this-section-mb-style h3.block-title {
+  font-family: "Frutiger Arabic", "Arial Narrow", Helvetica, Arial, sans-serif;
+}

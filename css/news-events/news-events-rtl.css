@@ -1,0 +1,190 @@
+
+.news-card-more a:after {
+  padding: 0px 5px 0px 0px;
+}
+
+.news-tabs .bef-select-as-radios .form-item {
+  float: right;
+}
+
+.news-tabs .radio label {
+  float: right;
+}
+
+.news-tabs .field-name-title h4 {
+  height: 53px;
+  overflow: hidden;
+  line-height: 1.4em;
+}
+
+.node-event .field-name-field-event-geo .field-items .field-item {
+  left: -104px;
+  right: auto;
+}
+
+.teaser-event-list .field-name-field-event-geo,
+.node-event.view-mode-mini_teaser .field-name-field-event-geo {
+  margin-left: 5px;
+  float: right;
+  margin-right: auto;
+}
+
+.node-event.view-mode-full .field-name-field-event-geo .field-items .field-item {
+  right: 0px;
+  left: auto;
+}
+
+.event-list .node-event.node-teaser .field-name-date-event {
+  float: right;
+}
+
+.node-event .right-grop {
+  float: right;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.node-event.node-teaser .group-left {
+  float: right;
+}
+
+.event-date-wrapper {
+  float: right;
+}
+
+/* --- Blogs --- */
+.blogs .secondary-column {
+  border-right: 1px solid #ddd;
+  border-left: none;
+}
+
+.block-tags-blog span.views-summary {
+  margin: 0 0 3px 3px;
+  float: right;
+}
+
+.node.node-blog .float-field .field {
+  float: right;
+  margin-left: 12px;
+  margin-right: auto;
+}
+
+.node-news.view-mode-full .field-name-field-date {
+  float: right;
+}
+
+.node-news.view-mode-full .field-name-field-share-this {
+  float: left;
+}
+
+.node-news .field-name-field-link .field-item {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.node-news.node-teaser .img-thumbnail {
+  margin-left: 15px;
+  float: right;
+  margin-right: auto;
+}
+
+.attached-media > a {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.popover-closed {
+  text-align: left;
+  float: left;
+}
+
+/****************** Events popover arrow *****************/
+.node-event .field-name-field-event-geo .field-items .field-item:after,
+.node-event .field-name-field-event-geo .field-items .field-item:before {
+  right: 50%;
+  left: auto;
+}
+
+.node-event .field-name-field-event-geo .field-items .field-item:after {
+  margin-right: -15px;
+  margin-left: auto;
+}
+
+.node-event .field-name-field-event-geo .field-items .field-item:before {
+  margin-right: -16px;
+  margin-left: auto;
+}
+
+.view-display-id-emp_events_sidebar.news-tabs .view-footer div {
+  text-align: left;
+}
+
+.node-event .left-grop {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.news-card-more a:after {
+  content: "\f137";
+}
+
+.node-event .event-time-wrapper span:first-child {
+  float: right;
+  margin-left: 0.3em;
+}
+
+/** <Have JB styled for RTL: #RA:2015-05-19:> **/
+body .jb-navigation .jbn-nav-left-touch-area .jbn-nav-button {
+  right: 25% !important;
+  left: auto !important;
+}
+
+body  .jb-navigation .jbn-nav-right-touch-area .jbn-nav-button {
+  left: 25% !important;
+  right: auto !important;
+}
+
+#jb-glry-dlg .jb-navigation .jbn-nav-left-touch-area .jbn-nav-button {
+  right: 45% !important;
+  left: auto !important;
+}
+
+#jb-glry-dlg .jb-navigation .jbn-nav-right-touch-area .jbn-nav-button {
+  right: auto !important;
+  left: 45% !important;
+}
+
+body .jb-navigation .jbn-right-button:before, .jb-flag-large-screen-mode .jb-navigation .jbn-right-button:before {
+  content: "\e000" !important;
+}
+
+body .jb-navigation .jbn-left-button:before, .jb-flag-large-screen-mode .jb-navigation .jbn-left-button:before {
+  content: "\e001" !important;
+}
+/** </Have JB styled for RTL> **/
+
+.group-event-details .field-name-field-link {
+ right: auto;
+ left: 20px;
+}
+
+/** news&event tabs **/
+@media (max-width: 767px) {
+  .teaser-list .field-name-title h4 {
+    margin-bottom: 15px;
+  }
+
+  .news-tabs label[for="edit-field-category-tid-all"]{
+    padding: 19px;
+  }
+
+  .group-event-details .field-name-field-link {
+   top: 8px;
+   left: 8px;
+  }
+}
+
+.view-academic-calendars .academic-event-date .date-and-time {
+  float: none;
+}

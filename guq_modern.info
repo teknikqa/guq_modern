@@ -1,0 +1,142 @@
+name = Georgetown University SFS Qatar Theme
+description = The new theme for Georgetown University SFS Qatar Theme. Based on Bootstrap 3
+core = 7.x
+base theme = bootstrap
+
+; Regions
+regions[top_nav]        = 'Top Navigation'
+regions[top_header]        = 'Top Header'
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[header_mobile]  = 'Top Bar - Mobile'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[top_content]    = 'Top Content'
+regions[bottom_content] = 'Bottom Content'
+regions[sidebar_first]  = 'First Side Bar'
+regions[sidebar_second] = 'Second Side Bar'
+regions[sidebar_default] = 'First Side Bar Default content'
+regions[right_sidebar_default] = 'Right Default content'
+regions[center_top_default] = 'Center Top Default'
+regions[top_footer]  = 'Top Footer'
+regions[footer_area] = 'Footer'
+regions[footer_menu] = 'Footer Menu'
+
+; Stylesheets
+
+; Bootstarp
+stylesheets[all][] = assets/bootstrap/css/bootstrap.min.css
+stylesheets[all][] = assets/bootstrap-no-spacing/bootstrap-no-spacing.css
+stylesheets[all][] = assets/bootstrap-on-spacing/bootstrap-on-spacing.css
+;stylesheets[all][] = assets/bootstrap-chosen/bootstrap-chosen.css
+
+; Fonts-Awesome
+stylesheets[all][] = assets/font-awesome/css/font-awesome.min.css
+
+; Overrides
+stylesheets[all][] = css/overrides.css
+; Layout
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/layout-md.css
+stylesheets[all][] = css/layout-sm.css
+stylesheets[all][] = css/layout-xs.css
+
+; Typography
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/typography-md.css
+stylesheets[all][] = css/typography-sm.css
+stylesheets[all][] = css/typography-xs.css
+
+
+; -- Sections -----------------------
+; General components
+stylesheets[all][] = css/components.css
+stylesheets[all][] = css/components-md.css
+stylesheets[all][] = css/components-sm.css
+stylesheets[all][] = css/components-xs.css
+
+; Home
+stylesheets[all][] = css/home/home.css
+stylesheets[all][] = css/home/home-md.css
+stylesheets[all][] = css/home/home-sm.css
+stylesheets[all][] = css/home/home-xs.css
+
+; About
+stylesheets[all][] = css/about/about.css
+stylesheets[all][] = css/about/about-md.css
+stylesheets[all][] = css/about/about-sm.css
+stylesheets[all][] = css/about/about-xs.css
+
+; Admission
+stylesheets[all][] = css/admission/admission.css
+stylesheets[all][] = css/admission/admission-md.css
+stylesheets[all][] = css/admission/admission-sm.css
+stylesheets[all][] = css/admission/admission-xs.css
+
+; Campus life
+stylesheets[all][] = css/campus-life/campus-life.css
+stylesheets[all][] = css/campus-life/campus-life-lg.css
+stylesheets[all][] = css/campus-life/campus-life-md.css
+stylesheets[all][] = css/campus-life/campus-life-sm.css
+stylesheets[all][] = css/campus-life/campus-life-xs.css
+
+; News Events
+stylesheets[all][] = css/news-events/news-events.css
+stylesheets[all][] = css/news-events/news-events-md.css
+stylesheets[all][] = css/news-events/news-events-sm.css
+stylesheets[all][] = css/news-events/news-events-xs.css
+
+; Research
+stylesheets[all][] = css/research/research.css
+stylesheets[all][] = css/research/research-md.css
+stylesheets[all][] = css/research/research-sm.css
+stylesheets[all][] = css/research/research-xs.css
+
+; Employees
+stylesheets[all][] = css/employees/employees.css
+stylesheets[all][] = css/employees/employees-md.css
+stylesheets[all][] = css/employees/employees-sm.css
+stylesheets[all][] = css/employees/employees-xs.css
+
+; Classifieds
+stylesheets[all][] = css/classifieds/classifieds.css
+
+; Center
+stylesheets[all][] = css/center.css
+
+; -- End Sections -----------------------
+
+; MegaMenu
+stylesheets[all][] = css/megamenu/base.css
+
+; Other Stylesheets
+stylesheets[all][] = css/responsive.css
+stylesheets[print][] = css/print.css
+stylesheets[print][] = assets/bootstrap-print/bootstrap-print.css
+
+; Scripts
+scripts[] = assets/bootstrap/js/bootstrap.min.js
+scripts[] = js/isotope/isotope.pkgd.min.js
+scripts[] = js/isotope/isotope.fitcolumns.js
+;scripts[] = js/jquery.touchwipe.min.js
+scripts[] = js/imagesloaded.pkgd.min.js
+scripts[] = assets/jquery-equalizer/jquery.equalizer.min.js
+scripts[] = assets/jquery-equal-children/jquery-equal-children.js
+scripts[] = js/menu.js
+scripts[] = js/script.js
+scripts[] = js/bootstrap-remove-empty-cols.js
+scripts[] = js/chosen.js
+scripts[] = js/chosen-custom.js
+scripts[] = js/flexslider_views_slideshow.js
+scripts[] = js/flexslider-reverse.js
+
+; Excludes
+exclude[css][] = 'sites/all/modules/contrib/custom_pagers/custom_pagers.css'
+exclude[css][] = 'profiles/varuni/modules/contrib/tb_megamenu/css/base.css'
+
+
+; Theme settings
+settings[bootstrap_cdn] = ''
+settings[bootstrap_tooltip_enabled] = '0'
+settings[bootstrap_tooltip_descriptions] = '0'

@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+
+  /** <Research project full page:  #RA:2014-09-22: > **/
+  .node-type-research-project .panel-panel.panel-region-right,
+  .node-type-research-project-page .panel-panel.panel-region-right {
+    padding-top: 15px;
+    margin-top: 37px;
+    border: 1px solid #ddd;
+  }
+  /** </Research project full page> **/
+
+  /** <Research user profile page: #RA:2014-11-10: > **/
+  .user-profile-sidebar.col-md-2 {
+    width: 13%;
+  }
+
+  .user-profile-sidebar.col-md-10 {
+    width: 87%;
+  }
+  /** </Research user profile page> **/
+
+  .research-project-team .researcher-bio,
+  .research-project-team .researcher-role {
+    padding-left: 15px;
+  }
+}

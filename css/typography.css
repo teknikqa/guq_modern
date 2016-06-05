@@ -1,0 +1,121 @@
+body {
+  font-size: 13px;
+}
+
+.col-sm-1,
+.col-md-1,
+.col-sm-2,
+.col-md-2,
+.col-sm-3,
+.col-md-3,
+.col-sm-4,
+.col-md-4 {
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.region-top-nav li, 
+#navigation li {
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #003e7e;
+}
+
+a:hover {
+  color: #89002e;
+}
+
+.more a {
+  font-size: 13px;
+}
+
+a.more,
+a.more-link {
+  font-size: 13px;
+}
+
+.more a:after {
+  content: "";
+  display: inline-block;
+  font-family: FontAwesome;
+  padding: 0 0 0 5px;
+}
+
+a.more:after,
+a.more-link:after {
+  content: "";
+  display: inline-block;
+  font-family: FontAwesome;
+  padding: 0 0 0 5px;
+}
+
+a.more:hover,
+a.more-link:hover {
+  text-decoration: none;
+}
+
+.more a:hover {
+  text-decoration: none;
+}
+
+.panel-region-middle h3,
+.panel-region-middle h2,
+.user-publications .views-group {
+  font-family: "adobe-caslon-pro",georgia;
+}
+
+.top-nav #block-menu-menu-secondary-menu ul.menu.nav > li a {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#navigation .tb-megamenu .nav  li.level-2 .tb-megamenu-submenu a {
+  font-family: helvetica, arial;
+  font-weight: normal;
+}
+
+.footer-contact-info .uni-name {
+  font-family: "adobe-caslon-pro", georgia;
+}
+
+.page-header h1 {
+  font-family: "adobe-caslon-pro", georgia;
+  font-weight: bold;
+}
+
+.page-header .page-title-suffix {
+  font-family: "adobe-caslon-pro", georgia;
+  font-weight: normal;
+}
+
+.main-content-title,
+.view-mode-full .field-name-title h2{
+  font-weight: bold;
+  font-family: "adobe-caslon-pro",georgia
+}
+
+.view-page-slider figcaption {
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+blockquote p {
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.view-empty {
+  text-align: center;
+  font-size: 16px;
+  padding: 40px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.date {
+  color: #666666;
+  font-size: 12px;
+  font-style: italic;
+}

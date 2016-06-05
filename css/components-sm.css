@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width: 991px)  {
+  iframe {
+    max-width: 100%;
+  }
+  
+  #breadcrumb-wrapper .breadcrumb {
+    display: none;
+  }
+  
+   .full-page .basic-page-videos .video-item {
+    margin-right: 29px;
+  }
+  
+  .basic-page-videos .video-item.views-row-first,
+  .basic-page-videos .video-item.views-row-last {
+    margin: 0;
+  }
+  
+  .second-sidebar {
+    clear: both;
+  }
+  
+  .blogs .secondary-column{
+    border-left: 0px none;
+    border-right: 1px solid #ddd;
+  }
+  
+  .view-page-slider figcaption {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .pane-bundle-banner .banner-heading {
+    width: 100%;
+  }
+  
+}

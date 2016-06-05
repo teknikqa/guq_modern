@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+
+  /* --- Research proejcts LB Block --- */
+  .footer-description.row {
+    line-height: 2.2em;
+  }
+
+  .footer-description.row .note {
+    border: 0;
+    padding-right: 0;
+  }
+
+   /** <Research project team: #RA:2014-09-14:> **/
+  .research-project-team .researcher-picture {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .research-project-team .researcher-bio,
+  .research-project-team .researcher-role {
+    margin: 15px;
+    float: none;
+  }
+
+  .research-project-team .researcher-name {
+    margin-left: 15px;
+    display: block;
+  }
+  /** </Research project team> **/
+  
+  #mini-panel-research_center .right {
+    margin-top: 30px;
+  }
+}

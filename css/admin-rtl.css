@@ -1,0 +1,98 @@
+body.page-user-edit .form-type-select label,
+body.page-node-add-page .form-type-select label {
+  padding-right: 0;
+  padding-left: 15px;
+  float: right;
+  clear: both;
+}
+
+
+body .container-inline-date .date-padding {
+  float: right;
+}
+
+body .cke_toolbar {
+  float: right;
+}
+
+/** Use this file to custom css for logged in users **/
+
+.node-form .date-no-float {
+  float: right;
+}
+
+.node-form .field-name-field-event-date input {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.node-form .end-date-wrapper label {
+  float: right;
+  padding: 30px 40px 0 60px;
+}
+
+.float-field-form .form-wrapper {
+  float: right;
+}
+
+.float-field-form {
+  float: right;
+}
+
+form .field-name-field-person-type {
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+/** <Book Module> **/
+li.book_printer,
+li.translation_en,
+li.translation_ar {
+  display: none !important;
+}
+
+.node-type-research-project .book_add_child {
+  float: right;
+}
+/** </Book Module> **/
+
+/** </chosen for select in admin pages #RA:2014-11-06:> **/
+@media (min-width: 992px) {
+  body.page-user-edit .form-type-select label,
+  body.page-node-add-page .form-type-select label {
+    padding-right: 0;
+    padding-left: 15px;
+    float: right;
+  }
+}
+/** </chosen for select in admin pages> **/
+
+#navbar-administration a:hover,
+.navbar-tray a:hover {
+  cursor : pointer !important;
+  cursor : hand !important;
+}
+
+/** <User Profile: #RA:2015-01-19:> **/
+.group-profile-name .field-type-text {
+  float: right;
+  padding-left: 0;
+  padding-right: 5px;
+}
+/** </User Profile> **/
+
+
+.page-user-edit .tabs-left>.tab-content {
+  margin-left: 0;
+  margin-right: -20px;
+}
+
+@media(max-width: 845px) {
+  .vertical-tabs ul.vertical-tabs-list {
+    margin-right: 0;
+  }
+
+  div.vertical-tabs {
+    margin-right: 0;
+  }
+}

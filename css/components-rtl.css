@@ -1,0 +1,488 @@
+/**
+ *
+ * This file Contain CSS for main website components.
+ */
+
+
+/* --- List Inside middle region --- */
+.pane-content ul {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.pane-content ul li {
+  padding-right: 13px;
+  padding-left: 0;
+}
+
+.pane-content ul li:before {
+  right: 0;
+  left: auto;
+  content: "\f0d9";
+}
+
+/* --- FAQs --- */
+.view-faqs.view-display-id-panel_pane_1 ul {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.view-faqs.view-display-id-panel_pane_1 ul li {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* --- GUQ Collapsible Block --- */
+.guq-collapsible-content {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.guq-collapsible-title {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.guq-collapsible-title:before {
+  right: 10px;
+  left: auto;
+  content: "\f0d9";
+}
+
+.pane-views-panes .pane-title {
+  background-position: right;
+}
+
+
+/* --- GUQ Collapsible Block: Application Details --- */
+
+.col-md-3 .guq-collapsible-title,
+.col-md-4 .guq-collapsible-title,
+.app-requirement-bean .guq-collapsible-title {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+.col-md-3 .guq-collapsible-title:before,
+.col-md-4 .guq-collapsible-title:before,
+.app-requirement-bean .guq-collapsible-title:before {
+  right: 0;
+  left: auto;
+}
+
+.app-requirement-bean ul {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* --- Pages Slider --- */
+
+.flexslider {
+  direction: ltr;
+}
+
+.flexslider .slides > li {
+  text-align: right;
+}
+
+.view-page-slider .flex-control-nav {
+  left: 15px;
+  right: auto;
+}
+
+.view-page-slider figcaption {
+  left: 15px;
+  right: auto;
+  direction: rtl;
+  text-align: right;
+}
+
+/*---- Default style for sidebar veiws --- */
+
+.pane-newsletter-sidebar-annual-report a:before {
+  padding: 0 0 0 5px;
+}
+
+.contact-us-map,
+.contact-us-direction,
+.contact-us-link {
+  margin-right: 5px;
+  float: right;
+}
+
+.contact-us-map:before,
+.contact-us-direction:before,
+.contact-us-link:before {
+  padding: 0 0 0 5px;
+}
+
+.group-link-wrapper div {
+  float: right;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/* --- Basic page videos --- */
+.full-page .basic-page-videos .video-item {
+  margin-left: 49px;
+  margin-right: auto;
+}
+
+.basic-page-videos {
+  float: right;
+}
+
+.basic-page-videos .video-item {
+  float: right;
+  margin-left: 9px;
+  margin-right: auto;
+}
+
+.basic-page-videos .video-item.views-row-first,
+.basic-page-videos .video-item.views-row-last {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* --- News --- */
+
+/* --- Quicktabs --- */
+ul.quicktabs-tabs.quicktabs-style-basic li {
+  margin-left: -1px;
+  margin-left: -4px;
+  margin-right: auto;
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li.active {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+/*
+ * Social Networks
+*/
+ul.quicktabs-style-frontpage,
+ul.quicktabs-style-frontpage > li {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/**  Academics Majors  **/
+
+.academic-major a {
+  right: 0;
+  left: auto;
+}
+
+/* --- FPP: Spotlight --- */
+
+.pane-bundle-spotlight .field-name-field-images .field-item {
+  float: right;
+  border-right: 1px solid #FFEDBB;
+  border-left: none;
+}
+
+.pane-bundle-spotlight h2.spotlight-block-title {
+  margin-left: -30px;
+  margin-right: auto;
+}
+
+.pane-bundle-spotlight .more {
+  text-align: left;
+}
+
+/* --- FPP: CFA --- */
+/* --- FBB: Banners --- */
+
+.pane-bundle-banner .fieldable-panels-pane > div {
+  float: right;
+}
+
+.pane-bundle-banner .banner-link a:after {
+  padding: 0 5px 0 0;
+  content: "\f137";
+}
+
+.pane-bundle-banner .bean-announcement-banner .banner-link {
+  padding: 0 0 7px 7px;
+}
+
+
+/**   Academic Calendar   **/
+
+.academic-event-details {
+  padding-right: 8px;
+  padding-left: 0;
+}
+
+/** Field collection links  **/
+
+ul.field-collection-view-links li a {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+ul.action-links.action-links-field-collection-add li a {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+ul.field-collection-view-links li,
+ul.action-links.action-links-field-collection-add li {
+  float: left;
+  margin-right: 10px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: auto;
+}
+
+ul.field-collection-view-links li:before,
+ul.action-links.action-links-field-collection-add li:before {
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+/** Views more link  **/
+.more-link {
+  text-align: left;
+}
+
+.more-link a:after {
+  padding: 0 5px 0 0;
+}
+
+.bullet ul {
+  padding-right: 25px;
+  padding-left: 0;
+}
+
+.bullet ul li:before {
+  float: right;
+  margin-right: -1.2em;
+  margin-left: auto;
+  content: "\f053";
+}
+
+/*** User profile ***/
+.user-profile .user-bio {
+  padding: 5px 0 5px 10px;
+}
+
+.view-user-profile .user-contact {
+  text-align: left;
+}
+
+.user-profile-item .user-profile-picture {
+  float: left;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.user-profile-item .user-cv,
+.user-profile-item .user-website,
+.user-profile-item .user-education,
+.user-profile-item .user-languages,
+.user-profile-item .user-expertise {
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+.user-profile .user-name:after,
+.page-user .user-name:after {
+  border-right: 15px solid #FFF;
+  border-left: none;
+}
+
+.research .user-research-image {
+  float: right;
+  margin: 0 0 10px 15px;
+}
+
+.user-publications .user-publication-item .field-content:before {
+  padding: 0 0 0 5px;
+}
+
+.user-publications .user-publication-item {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+/** Sidebar filters **/
+
+.panel-region-left .views-exposed-form .views-exposed-widget.views-submit-button,
+.panel-region-left .views-exposed-form .views-exposed-widget.views-reset-button {
+  float: right;
+}
+
+.panel-region-left .views-exposed-form .views-exposed-widget.views-submit-button {
+  padding: 7px 12px 7px 6px;
+}
+
+.panel-region-left .views-exposed-form .views-exposed-widget.views-reset-button {
+  padding: 7px 7px 7px 12px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6babe5;
+  border-color: #559fe1;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: #4092dd;
+  border-color: #2581d4;
+}
+/** Projects slider **/
+body .projects-slider {
+  direction: ltr;
+}
+
+.projects-slider .owl-carousel .owl-item.active:nth-child(odd) {
+  border-left: 0px solid #ddd;
+  border-right: none;
+}
+
+.projects-slider .owl-carousel .owl-item.active:last-child {
+  border-left: none;
+  border-right: none;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 1px 10px 5px 10px;
+}
+
+.group-right-owlslider {
+  float: right;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.owl-item .group-right-owlslider {
+  max-width: 260px;
+}
+
+.group-left-owlslider {
+  margin-right: 135px;
+  margin-left: auto;
+}
+
+.owl-item .group-left-owlslider {
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+}
+
+.research-pro-label {
+  float: right;
+}
+
+.group-left-owlslider .research-pro-label {
+  padding-right: 15px;
+  direction: rtl;
+}
+
+.group-left-owlslider .research-pro-status {
+  float: right;
+}
+
+.field-collection-container .researchers-label {
+  direction: rtl;
+  padding-right: 15px;
+}
+
+.group-right-owlslider .field-collection-container {
+  float: right;
+}
+
+.group-right-owlslider .research-pro-id {
+  float: right;
+  padding-right: 15px;
+}
+
+.field-name-field-researcher {
+  float: right;
+  max-width: 200px;
+
+}
+
+.field-name-field-researcher .view-mode-research_teaser .field-name-title .field-items .field-item{
+  direction: rtl;
+}
+
+@media (max-width: 767px) {
+  .research-pro-image img {
+    float: right;
+  }
+
+  .owl-carousel-projects_slider .group-left-owlslider {
+    max-width: 150px;
+  }
+}
+
+.view-display-id-projects_slider .owl-item {
+  padding-right: 5px;
+}
+
+/** newsletter webform **/
+
+.col-sm-3 .node-webform a.close,
+.col-sm-4 .node-webform a.close {
+  left: 10px;
+  right: auto;
+}
+
+/** multimedia bean **/
+
+#navigation .tb-megamenu .dropdown-menu .entity-bean.bean-menu-block a.bean-block-link .block-img-thumb {
+  right: 0;
+  left: auto;
+}
+
+#navigation .tb-megamenu .dropdown-menu .entity-bean.bean-menu-block a.bean-block-link.video:after {
+  right: 40%;
+  left: auto;
+}
+
+ul.quicktabs-tabs.quicktabs-style-navlist {
+  float: right;
+}
+
+ul.quicktabs-tabs.quicktabs-style-navlist li {
+  margin-right: 0;
+  margin-left: -1px;
+}
+
+/** Ajax loader **/
+
+.ajax-progress-throbber {
+  float: left;
+}
+
+/** xs for mobile **/
+
+@media (max-width: 767px) {
+  /** mobile menu item **/
+  ul.menu li {
+    margin: 0;
+  }
+
+  #block-menu-menu-mobile-menu li {
+    float: right;
+  }
+
+  .mobile-menu .dropdown-menu li.expanded,
+  .mobile-menu .dropdown-menu li.leaf {
+    padding: 0;
+  }
+
+  /** faculty **/
+  #views-exposed-form-user-profile-faculty .form-control {
+    padding: 0 12px;
+  }
+
+  /** cirs image slider **/
+  .view-page-slider figcaption {
+    left: auto;
+  }
+}

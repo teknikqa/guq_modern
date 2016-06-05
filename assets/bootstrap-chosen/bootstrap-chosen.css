@@ -1,0 +1,155 @@
+.form-control .chosen-choice {
+    border: 0;
+    border-radius: 0;
+}
+
+.form-control .chosen-choice .chosen-arrow {
+    border-radius: 0;   
+}
+
+.form-control.chosen-container {
+    height: auto !important;
+    padding: 0;
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+
+.form-control.chosen-container.chosen-dropdown-open {
+    border-color: #5897FB;
+    border-radius: 0;
+}
+
+.form-control .chosen-container.chosen-dropdown-open .chosen-choices {
+    border-radius: 0;
+}
+
+.form-control.chosen-container .chosen-choices,
+.chosen-container-single .chosen-single {
+    border: 0 !important;
+    border-radius: 0;
+    min-height: 30px !important;
+    height: auto; !important;
+    line-height: 28px;
+}
+
+.chosen-container-single .chosen-single {
+  background: #f4f4f4;
+  background-image: none;
+  background-color: #f4f4f4;
+}
+
+.control-group.warning .chosen-container .chosen-choice,
+.control-group.warning .chosen-container .chosen-choices,
+.control-group.warning .chosen-container-active .chosen-choice,
+.control-group.warning .chosen-container-active .chosen-choices,
+.control-group.warning .chosen-dropdown-open.chosen-drop-above .chosen-choice,
+.control-group.warning .chosen-dropdown-open.chosen-drop-above .chosen-choices,
+.control-group.warning .chosen-container-multi.chosen-container-active .chosen-choices {
+    border: 1px solid #C09853 !important;
+}
+
+.control-group.warning .chosen-container .chosen-choice div {
+    border-left: 1px solid #C09853 !important;
+    background: #FCF8E3 !important;
+}
+
+.control-group.error .chosen-container .chosen-choice,
+.control-group.error .chosen-container .chosen-choices,
+.control-group.error .chosen-container-active .chosen-choice,
+.control-group.error .chosen-container-active .chosen-choices,
+.control-group.error .chosen-dropdown-open.chosen-drop-above .chosen-choice,
+.control-group.error .chosen-dropdown-open.chosen-drop-above .chosen-choices,
+.control-group.error .chosen-container-multi.chosen-container-active .chosen-choices {
+    border: 1px solid #B94A48 !important;
+}
+
+.control-group.error .chosen-container .chosen-choice div {
+    border-left: 1px solid #B94A48 !important;
+    background: #F2DEDE !important;
+}
+
+.control-group.info .chosen-container .chosen-choice,
+.control-group.info .chosen-container .chosen-choices,
+.control-group.info .chosen-container-active .chosen-choice,
+.control-group.info .chosen-container-active .chosen-choices,
+.control-group.info .chosen-dropdown-open.chosen-drop-above .chosen-choice,
+.control-group.info .chosen-dropdown-open.chosen-drop-above .chosen-choices,
+.control-group.info .chosen-container-multi.chosen-container-active .chosen-choices {
+    border: 1px solid #3A87AD !important;
+}
+
+.control-group.info .chosen-container .chosen-choice div {
+    border-left: 1px solid #3A87AD !important;
+    background: #D9EDF7 !important;
+}
+
+.control-group.success .chosen-container .chosen-choice,
+.control-group.success .chosen-container .chosen-choices,
+.control-group.success .chosen-container-active .chosen-choice,
+.control-group.success .chosen-container-active .chosen-choices,
+.control-group.success .chosen-dropdown-open.chosen-drop-above .chosen-choice,
+.control-group.success .chosen-dropdown-open.chosen-drop-above .chosen-choices,
+.control-group.success .chosen-container-multi.chosen-container-active .chosen-choices {
+    border: 1px solid #468847 !important;
+}
+
+.control-group.success .chosen-container .chosen-choice div {
+    border-left: 1px solid #468847 !important;
+    background: #DFF0D8 !important;
+}
+
+.chosen-container-single .chosen-single span,
+.chosen-container-multi .chosen-choicese span {
+    padding-top: 2px;
+}
+.chosen-container-single .chosen-single div b,
+.chosen-container-multi .chosen-choices span {
+    margin-top: 2px;
+}
+
+.chosen-container-single .chosen-drop {
+  border-radius: 0;
+}
+
+.chosen-container .chosen-results {
+  margin: 0 1px 4px 0;
+  padding: 0 0 0 4px;
+}
+
+.chosen-container li.search-field:before,
+.chosen-container li.active-result:before,
+.chosen-container-multi .chosen-choices li.search-choice:before {
+  content: '';
+}
+
+.chosen-container-multi .chosen-drop .result-selected {
+  display: none;
+}
+
+.chosen-container.chosen-container-multi:after {
+  content: "\f055";
+  position: absolute;
+  font-family: FontAwesome;
+  right: 2px;
+  font-size: 15px;
+  top: 4px;
+}
+
+ul li.chosen-search-field:before,
+ul li.chosen-search-choice:before {
+  content: '';
+}
+
+.chosen-drop,
+.chosen-container .chosen-choice,
+.chosen-drop.chosen-drop-above,
+.chosen-container .chosen-choice .chosen-arrow,
+.chosen-arrow {
+  border-radius: 0;
+}
+
+body .chosen-container.form-control {
+  padding: 0;
+}
+
+/** </chosen for filters> **/

@@ -1,0 +1,227 @@
+/* --- FPP: Campus Life --- */
+.page-campus-life .pane-custom {
+  width: 370px;
+  height: 310px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.campus-life-page-title {
+  margin-top: 57px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 41px;
+  line-height: 45px;
+  color: #FFF;
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+.page-campus-life {
+  background: url('../../images/cl-bg.jpg') repeat-y fixed;
+  background-size: cover;
+}
+
+.page-campus-life .panel-flexible {
+  padding: 30px 0px;
+  width: 100%;
+  position: relative;
+}
+
+.page-campus-life .panel-pane,
+.page-campus-life .panels-ipe-portlet-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-campus-life .panel-separator {
+  clear: none;
+  margin: 0px;
+}
+
+.page-campus-life .fieldable-panels-pane {
+  padding: 5px;
+}
+
+.page-campus-life .panels-flexible-region-406-center {
+  width: 100%;
+  position: relative;
+}
+
+#campus-life .panels-flexible-region-inside { 
+  width: 100%;
+}
+
+
+/* --- FPP: Campus Life: Link --- */
+.page-campus-life .cl-fpp-link {
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+  display: table-cell;
+  color: #FFF;
+  font-size: 23px;
+  height: 150px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.page-campus-life .cl-fpp-link:focus,
+.page-campus-life .cl-fpp-link:hover {
+  opacity: .8;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* --- FPP: Campus Life: Image --- */
+.page-campus-life .cp-fpp-inner-link {
+  color: #FFF;
+  display: block;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  font-size: 18px;
+  margin: 5px 5px 0px 5px;
+  text-transform: uppercase;
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+
+.cl-large-image-block {
+  width: 570px;
+  height: 320px;
+}
+
+.cl-medium-image-block {
+  width: 380px;
+  height: 320px;
+}
+
+.cl-small-image-block {
+  width: 190px;
+  height: 320px;
+}
+
+.cl-image-details {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  padding: 15px;
+  color: #FFF;
+  font-size: 13px;
+  top: 5px;
+  transition: all .3s;
+  opacity: 0;
+}
+
+.cl-image-details:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.cl-image-block:hover .cl-image-details {
+  opacity: 1;
+}
+
+.cl-image-block:hover .cp-fpp-inner-link {
+  display: none;
+}
+
+.cl-image-title {
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FFF;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.cl-image-details-link {
+  display: inline-block;
+  padding: 7px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  margin-top: 20px;
+  font-size: 13px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.cl-image-details-link:focus,
+.cl-image-details-link:hover {
+  border: 1px solid #F2F2F2;
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+/* --- FPP: Campus Life: Video --- */
+.cl-video-block {
+  width: 570px;
+  height: 320px;
+}
+
+.pane-bundle-video i {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 60px;
+  left: 45%;
+  position: absolute;
+  top: 28%;
+  z-index: 10;
+}
+
+.pane-bundle-video a:hover i {
+  opacity: 0.9;
+}
+
+.video-description {
+  font-size: 13px;
+  color: #F2F2F2;
+  margin-top: 5px;
+}
+
+.cp-fpp-video-conainer  {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  position: absolute;
+  transition: all 0.2s ease-in-out 0s;
+  color: #FFF;
+  font-size: 22px;
+  display: block;
+  padding: 60px 20px 20px 20px;
+  margin: 5px;
+  right: 0px;
+}
+
+.panels-ipe-editing .panels-ipe-portlet-wrapper {
+  left: auto !important;
+  top: auto !important;
+} 
+
+/* --- FPP: Campus Life: Quick links --- */
+.quick-links-block {
+  background: #FFF;
+  padding-top: 20px;
+  border: 1px solid #D1D1D1;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.quick-links-block .ql-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #003e7e;
+  font-family: "pragmatica-web-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+}
+
+.quick-links-block .ql-thumbnail {
+  margin-right: 10px;
+}
+
+.quick-links-block .ql-content {
+  padding-left: 10px;
+  border-left: 2px solid #D1D1D1;
+  overflow: hidden;
+}

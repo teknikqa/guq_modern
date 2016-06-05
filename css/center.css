@@ -1,0 +1,309 @@
+.header .block-domain-menu-block ul {
+  text-align: center;
+  display: table;
+}
+
+.header .block-domain-menu-block ul > li {
+  display: table-cell;
+  float: none;
+  text-align: center;
+}
+
+[dir="rtl"] .header .block-domain-menu-block ul > li {
+  padding : 0;
+}
+
+.header .block-domain-menu-block ul> li a {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-left: 1px solid #4D4D4D;
+  border-radius: 0;
+  border-right: 1px solid #003d6b;
+  color: #e5dfd5;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  padding: 10px 45px;
+}
+
+[dir="rtl"] .header .block-domain-menu-block ul> li a {
+    border-right: 1px solid #4D4D4D;
+    border-left: 1px solid #003d6b;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+[dir="rtl"] .header .block-domain-menu-block ul> li.leaf {
+  padding: 0;
+}
+
+.header .block-domain-menu-block ul> li ul {
+  display: none;
+}
+
+.header .block-domain-menu-block ul> li.last a {
+  border-left: 0;
+  border-right: none;
+}
+
+.header .block-domain-menu-block ul> li.first a {
+  border-right: 0;
+  border-left: none;
+}
+
+.header .block-domain-menu-block ul> li:hover a,
+.header .block-domain-menu-block ul> li a:focus {
+  background: #fff;
+  color: #002147;
+}
+
+.header .block-domain-menu-block ul> li.active a,
+.header .block-domain-menu-block ul> li.active-trail a {
+  background: #003e7e;
+  color: #fff;
+}
+
+.microsite-homepage .region-top-content .block-views {
+  float: left;
+  width: 70%;
+}
+
+.microsite-homepage .region-top-content .block-block.top-content-block{
+  float: left;
+  width: 30%;
+  background: #002248;
+  text-align: center;
+  height: 354px;
+  padding: 20px;
+}
+
+.microsite-homepage .main-content-wrapper {
+  clear: both;
+}
+
+.view-page-slider.center-slider figure {
+  position: relative;
+}
+
+.view-page-slider.center-slider figcaption {
+  right: 0px;
+  width: 70%;
+  padding: 10px;
+  bottom: 15px;
+}
+
+.view-page-slider.center-slider figcaption .field-name-field-body {
+  font-size: 14px;
+}
+
+.view-page-slider.center-slider figcaption h3 {
+  margin: 0px 5px;
+}
+
+.center-youtube {
+  border: 1px solid #BAE0F7;
+  background-color: #FFF;
+  width: 100%;
+  display: inline-block;
+}
+
+.center-youtube .views-row {
+  display: block;
+  float: left;
+  padding: 15px 0px 15px 15px;
+}
+
+.center-youtube .views-row.views-row-last {
+  padding-right: 15px;
+}
+
+.center-youtube .views-row .views-field-field-image img {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.center-youtube .views-row .views-field-title {
+  max-width: 200px;
+}
+
+#block-views-center-center-youtube h3 {
+  background: #BAE0F7;
+  margin: 0px;
+  padding: 15px;
+}
+
+#block-views-center-center-youtube h3:before {
+  content: "\f16a";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+
+[dir=rtl] #block-views-center-center-youtube h3:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+/*************************domain footer menu ******************/
+.region-top-footer .block-domain-menu-block .menu-block-wrapper > ul > li {
+  float: left;
+  padding: 20px 15px 0 0;
+  width: 20%;
+}
+
+.region-top-footer .block-domain-menu-block .menu-block-wrapper > ul > li.last {
+  padding-right: 0;
+}
+
+[dir="rtl"] .region-top-footer .block-domain-menu-block .menu-block-wrapper > ul > li.last {
+  padding-right: 15px;
+}
+
+.region-top-footer .block-domain-menu-block .menu-block-wrapper > ul > li > a {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.region-top-footer .block-domain-menu-block .nav > li > a {
+  padding: 0px;
+}
+
+.region-top-footer .block-domain-menu-block .nav > li > a:hover,
+.region-top-footer .block-domain-menu-block .nav > li > a:focus {
+  background: none;
+}
+/*********************************************************/
+.publications .views-row  {
+  clear: both;
+  margin-bottom: 25px;
+  float: left;
+  width: 100%;
+}
+
+.publications .title h4 {
+  margin-top: 0px;
+}
+
+.publications-and-newsletter .view-filters {
+  margin-bottom: 25px;
+}
+
+.publications .views-field-field-image {
+  float: left;
+  margin-right: 15px;
+}
+
+/***************** Highlight Featured ******************************/
+.center-highlight .views-slideshow-controls-text-pause {
+  display: none;
+}
+
+.center-highlight .views-slideshow-controls-bottom {
+  float: right;
+  clear: both;
+  padding-top: 10px;
+}
+
+.center-highlight .views-slideshow-controls-bottom span:hover {
+  text-decoration: none;
+}
+
+.center-highlight .views-slideshow-controls-text-previous,
+.center-highlight .views-slideshow-controls-text-next {
+  display: block;
+  float: left;
+  height: 25px;
+  font-family: FontAwesome;
+  font-size: 24px;
+  position: relative;
+}
+
+.center-highlight .views-slideshow-controls-text-previous {
+  margin-right: 15px;
+}
+
+.center-highlight .views-slideshow-controls-text-previous:before {
+  content: "\f104";
+}
+
+.center-highlight .views-slideshow-controls-text-next:before {
+  content: "\f105";
+}
+
+.center-highlight .views-slideshow-controls-text-previous a,
+.center-highlight .views-slideshow-controls-text-next a {
+  text-indent: -9999px;
+  display: block;
+  position: absolute;
+  width: 10px;
+  top: 0px;
+}
+
+.center-highlight .views-slideshow-cycle-main-frame-row .views-slideshow-cycle-main-frame-row-item:first-child {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.center-highlight h5 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.archive-events .img-thumbnail {
+  float: left;
+  margin-right: 10px;
+}
+
+/***************************************/
+.node-event.view-mode-center .field-name-field-images {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 450px;
+}
+
+.node-biblio.view-mode-mini_teaser .img-thumbnail {
+  float: left;
+  margin-right: 15px;
+}
+/*********************** publications slider ****************************/
+body .publications-slider {
+  direction: ltr;
+}
+
+.publications-slider .owl-carousel {
+  padding: 20px 45px 20px 65px;
+  position: relative;
+  background: #fff;
+}
+
+.publications-slider .owl-prev {
+  left: 10px;
+  position: absolute;
+  top: 40%;
+}
+
+.publications-slider .owl-next {
+  right: 15px;
+  position: absolute;
+  top: 40%;
+}
+
+.publications-slider .views-field-title {
+  width: 155px;
+}
+
+.publications-slider .owl-theme .owl-controls {
+  margin: 0px;
+}
+
+.views-slideshow-cycle-main-frame {
+  width: 100% !important;
+}
+
+.center-sidebar-logo {
+  margin-bottom: 30px;
+}
+
+.region-top-footer .block-domain-menu-block .menu-block-wrapper > ul > li > ul > li ul {
+  display: none;
+}

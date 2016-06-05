@@ -1,0 +1,45 @@
+/* --- FPP: Campus Life: Image --- */
+.page-campus-life .cp-fpp-inner-link {
+  left: auto;
+  right: 0px;
+}
+
+.page-campus-life .cp-fpp-inner-link {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* --- FPP: Campus Life: Video --- */
+.pane-bundle-video i {
+  left: auto;
+  right: 45%;
+}
+
+/* --- FPP: Campus Life: Quick links --- */
+.quick-links-block .ql-thumbnail {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.quick-links-block .ql-content {
+  padding-left: 0;
+  padding-right: 10px;
+  border-left: 0;
+  border-right: 2px solid #D1D1D1;
+}
+
+.campus-life-page-title,
+.page-campus-life .cl-fpp-link,
+.quick-links-block .ql-title {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  .quick-links-block .ql-content {
+    border-right: none;
+  }
+
+  .quick-links-block .ql-thumbnail {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,222 @@
+/* --- Research proejcts LB Block --- */
+
+.node-research-person .field-name-title {
+  float: right;
+}
+
+.node-research-person .field-name-field-school {
+  float: right;
+  padding-left: 0;
+  padding-right: 5px;
+
+}
+
+.node-research-person .field-name-field-school .field-item:before {
+  float: right;
+}
+
+.node-research-person .field-name-field-school .field-item:after {
+  float: right;
+}
+
+.field-name-field-person-type {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.footer-description.row .note {
+  border-right: 0;
+  padding-right: 0;
+  border-left: 1px solid #CCC;
+  padding-left: 15px;
+}
+
+/* --- Research fellows & faculty --- */
+.research-fellows .research-user-row,
+.research-faculty .research-user-row{
+  float: right;
+  margin: 15px 0 0 10px;
+}
+
+.research-faculty .btn-primary {
+  color: #fff;
+  background-color: #6babe5;
+  border-color: #559fe1;
+}
+
+.research-faculty .btn-primary:hover, .btn-primary:focus,
+  .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #4092dd;
+  border-color: #2581d4;
+}
+
+/** <Publication full page: #RA:2014-09-15:> **/
+.view-publications.view-display-id-publication_block .views-field-field-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+/** </Publication full page> **/
+
+/** <Research project team: #RA:2014-09-14:> **/
+.research-project-team .researcher-picture {
+  float: right;
+}
+
+.research-project-team .researcher-bio {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.research-project-team .researcher-role {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+/** </Research project team> **/
+
+/** <Research project book pages: #RA:2014-09-14:> **/
+.node-research-project-page.view-mode-full .research-project-page-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.pane-content .node-research-project-page.view-mode-full  ul li:before {
+  margin-right: auto;
+  margin-left: 2px;
+}
+
+.pane-node-book-children ul {
+  padding-left: auto;
+  padding-right: 0;
+}
+
+.pane-node-book-children ul li {
+  padding-left: auto;
+  padding-right: 0;
+}
+
+.pane-node-book-children ul li:before {
+  left: auto;
+  right: 0px;
+}
+
+#block-book-navigation.block-book h3 {
+  font-family: "Frutiger Arabic W20","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#block-book-navigation.block-book ul {
+  padding-left: auto;
+  padding-right: 0;
+}
+
+#block-book-navigation.block-book ul li {
+  padding-left: auto;
+  padding-right: 0;
+}
+
+/** </Research project book pages> **/
+
+/* ---  Office of research  --- */
+
+.research-office-item .research-office-image,
+.user-view-item .user-view-image {
+  float: right;
+  margin: 10px 0 0 10px;
+}
+
+.research-office-item .research-office-bio .more-link:after,
+.user-view-item .user-view-bio .more-link:after {
+  padding: 0 5px 0 0;
+  content: "\f137";
+}
+
+/* ---  Meet the experts --- */
+.meet-experts-item .meet-experts-expertise ul li:before {
+  padding-right: 0;
+  padding-left: 5px;
+}
+
+/* ---  funding source  --- */
+.funding-source .views-group {
+  font-family: "Frutiger Arabic W20","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 8px 0 3px 0 ;
+}
+
+.funded-by-item .label-inline,
+.funded-by-item .research-fund-source,
+.funded-by-item .research-fund-subject {
+  float: right;
+}
+
+.funded-by-item .label-inline.research-fund-label:before,
+.label-inline.research-project-label:before {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.funded-by-item .research-fund-person,
+.awards-fellowship-person,
+.student-highlight-person,
+.research-pro-person {
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+.view-footer .footer-description.row .note.last {
+  padding-right: auto;
+  padding-left: 0;
+}
+
+.field-collection-container .field-name-field-referenced-user {
+  float: right;
+}
+
+.group-right-owlslider .research-pro-title {
+  padding-right: 15px;
+  font-size: 15px;
+  direction: rtl;
+}
+
+/* --- Awards and fellowship --- */
+.awards-fellowship-image,
+.student-highlight-image {
+  float: right;
+  margin: 15px 0 0 2%;
+}
+
+.research-projects .views-row {
+    float: right;
+}
+
+.research-projects .views-field-field-image {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/************* research tabs *******************/
+#quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li.active {
+  border-left: 0;
+  border-right: 1px solid #a5a5a5;
+}
+
+/************* research tabs views *******************/
+.research-tab .views-field-field-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.research-tab .views-row {
+  float: right;
+}
+
+.view-footer .footer-description.row .note {
+  font-size: 13px;
+  border-right: 0px;
+}

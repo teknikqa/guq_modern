@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+
+  .research-project-team .researcher-bio,
+  .research-project-team .researcher-role {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,313 @@
+body.admin-expanded.admin-vertical.admin-nw .navbar,
+body.admin-expanded.admin-vertical.admin-sw .navbar {
+  margin-left: 0;
+  margin-right: 260px;
+}
+
+body.navbar-is-fixed-top .main-container h1[name],
+body.navbar-is-fixed-top .main-container h2[name],
+body.navbar-is-fixed-top .main-container h3[name],
+body.navbar-is-fixed-top .main-container h4[name],
+body.navbar-is-fixed-top .main-container h5[name],
+body.navbar-is-fixed-top .main-container h6[name],
+body.navbar-is-fixed-top .main-container a[name],
+body.navbar-is-fixed-top .main-container h1[id],
+body.navbar-is-fixed-top .main-container h2[id],
+body.navbar-is-fixed-top .main-container h3[id],
+body.navbar-is-fixed-top .main-container h4[id],
+body.navbar-is-fixed-top .main-container h5[id],
+body.navbar-is-fixed-top .main-container h6[id],
+body.navbar-is-fixed-top .main-container a[id],
+body.toolbar .main-container h1[name],
+body.toolbar .main-container h2[name],
+body.toolbar .main-container h3[name],
+body.toolbar .main-container h4[name],
+body.toolbar .main-container h5[name],
+body.toolbar .main-container h6[name],
+body.toolbar .main-container a[name],
+body.toolbar .main-container h1[id],
+body.toolbar .main-container h2[id],
+body.toolbar .main-container h3[id],
+body.toolbar .main-container h4[id],
+body.toolbar .main-container h5[id],
+body.toolbar .main-container h6[id],
+body.toolbar .main-container a[id],
+body.toolbar.navbar-is-fixed-top .main-container h1[name],
+body.toolbar.navbar-is-fixed-top .main-container h2[name],
+body.toolbar.navbar-is-fixed-top .main-container h3[name],
+body.toolbar.navbar-is-fixed-top .main-container h4[name],
+body.toolbar.navbar-is-fixed-top .main-container h5[name],
+body.toolbar.navbar-is-fixed-top .main-container h6[name],
+body.toolbar.navbar-is-fixed-top .main-container a[name],
+body.toolbar.navbar-is-fixed-top .main-container h1[id],
+body.toolbar.navbar-is-fixed-top .main-container h2[id],
+body.toolbar.navbar-is-fixed-top .main-container h3[id],
+body.toolbar.navbar-is-fixed-top .main-container h4[id],
+body.toolbar.navbar-is-fixed-top .main-container h5[id],
+body.toolbar.navbar-is-fixed-top .main-container h6[id],
+body.toolbar.navbar-is-fixed-top .main-container a[id],
+body.toolbar-drawer .main-container h1[name],
+body.toolbar-drawer .main-container h2[name],
+body.toolbar-drawer .main-container h3[name],
+body.toolbar-drawer .main-container h4[name],
+body.toolbar-drawer .main-container h5[name],
+body.toolbar-drawer .main-container h6[name],
+body.toolbar-drawer .main-container a[name],
+body.toolbar-drawer .main-container h1[id],
+body.toolbar-drawer .main-container h2[id],
+body.toolbar-drawer .main-container h3[id],
+body.toolbar-drawer .main-container h4[id],
+body.toolbar-drawer .main-container h5[id],
+body.toolbar-drawer .main-container h6[id],
+body.toolbar-drawer .main-container a[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h1[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h2[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h3[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h4[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h5[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h6[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container a[name],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h1[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h2[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h3[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h4[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h5[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container h6[id],
+body.toolbar-drawer.navbar-is-fixed-top .main-container a[id],
+body.admin-menu .main-container h1[name],
+body.admin-menu .main-container h2[name],
+body.admin-menu .main-container h3[name],
+body.admin-menu .main-container h4[name],
+body.admin-menu .main-container h5[name],
+body.admin-menu .main-container h6[name],
+body.admin-menu .main-container a[name],
+body.admin-menu .main-container h1[id],
+body.admin-menu .main-container h2[id],
+body.admin-menu .main-container h3[id],
+body.admin-menu .main-container h4[id],
+body.admin-menu .main-container h5[id],
+body.admin-menu .main-container h6[id],
+body.admin-menu .main-container a[id],
+body.admin-menu.navbar-is-fixed-top .main-container h1[name],
+body.admin-menu.navbar-is-fixed-top .main-container h2[name],
+body.admin-menu.navbar-is-fixed-top .main-container h3[name],
+body.admin-menu.navbar-is-fixed-top .main-container h4[name],
+body.admin-menu.navbar-is-fixed-top .main-container h5[name],
+body.admin-menu.navbar-is-fixed-top .main-container h6[name],
+body.admin-menu.navbar-is-fixed-top .main-container a[name],
+body.admin-menu.navbar-is-fixed-top .main-container h1[id],
+body.admin-menu.navbar-is-fixed-top .main-container h2[id],
+body.admin-menu.navbar-is-fixed-top .main-container h3[id],
+body.admin-menu.navbar-is-fixed-top .main-container h4[id],
+body.admin-menu.navbar-is-fixed-top .main-container h5[id],
+body.admin-menu.navbar-is-fixed-top .main-container h6[id],
+body.admin-menu.navbar-is-fixed-top .main-container a[id] {
+  float: right;
+}
+
+.navbar .logo {
+  margin-right: 15px;
+  padding-left: -15px;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+@media screen and (min-width:768px) {
+  .navbar .logo {
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: auto;
+    padding-right: 0;
+  }
+}
+
+ul.secondary {
+  float: right;
+}
+
+@media screen and (min-width:768px) {
+  ul.secondary {
+    float: left;
+  }
+}
+
+.region-help>.glyphicon {
+  float: right;
+}
+
+@media screen and (min-width:992px) {
+  .navbar #block-search-form {
+    float: left;
+  }
+}
+
+ul.action-links li {
+  padding: 0 0 0 6px;
+}
+
+ul.action-links .glyphicon {
+  padding-right: auto;
+  padding-left: .5em;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+fieldset legend.panel-heading {
+  float: right;
+}
+
+.resizable-textarea textarea {
+  border-radius: 4px 0 0 4px;
+}
+
+.password-strength {
+  float: left;
+}
+
+.password-strength-text {
+  float: left;
+}
+
+div.password-confirm {
+  float: left;
+}
+
+.pagination ul>li>a.progress-disabled {
+  float: right;
+}
+
+.ajax-progress .glyphicon {
+  margin: 0 .5em 0 -0.25em;
+}
+
+.vertical-tabs ul.vertical-tabs-list {
+  margin-left: -1px;
+}
+
+.tabs-left>.nav-tabs {
+  float: right;
+  margin-right: auto;
+  margin-left: -1px;
+}
+
+.tabs-left>.nav-tabs>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-left: 0px;
+}
+
+.tabs-right>.nav-tabs {
+  float: left;
+  margin-right: -1px;
+  margin-left: 0;
+}
+
+.tabs-left>.nav-tabs>li>a:hover,
+.tabs-left>.nav-tabs>li>a:focus {
+  border-color: #eee #eee #eee #ddd ;
+}
+
+body .tabs-left>.nav-tabs>.active>a,
+body .tabs-left>.nav-tabs>.active>a:hover,
+body .tabs-left>.nav-tabs>.active>a:focus {
+  border-radius: 0 4px 4px 0;
+  border-color: #ddd #ddd #ddd transparent;
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
+}
+
+.tabs-right>.nav-tabs>li>a {
+  border-radius: 0 0 4px 4px;
+}
+
+.tabs-right>.nav-tabs>li>a:hover,
+.tabs-right>.nav-tabs>li>a:focus {
+  border-color: #eee #ddd #eee #eee ;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.05);
+  -moz-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.05);
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.05);
+}
+
+.tabs-left>.tab-content,
+.tabs-right>.tab-content {
+  border-radius: 4px 0 4px 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
+  overflow: hidden;
+  padding: 10px 15px;
+}
+
+.tabs-right>.nav-tabs>.active>a,
+.tabs-right>.nav-tabs>.active>a:hover,
+.tabs-right>.nav-tabs>.active>a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+}
+
+#skip-links a,
+#skip-links a:link,
+#skip-links a:visited,
+#skip-links a:hover {
+  left:auto;
+  right: 0;
+}
+
+#responsive-preview-navbar-tab .responsive-preview-options {
+  right: auto;
+  left: 0;
+}
+
+.bs-callout {
+  padding: 15px 15px 15px 30px;
+  border-left: 0;
+  border-right: 5px solid;
+}
+
+.bs-callout-tagline {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.media-widget a.button {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+dd {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.form-type-managed-file input[type="file"] {
+  float: right;
+}
+
+.form-type-managed-file input[type="file"] {
+  float: right;
+}
+
+.media-widget .preview .media-item {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+a.tabledrag-handle .handle {
+  padding-right: 28px;
+  padding-left: 0;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pane-content .field-name-body ul li:before {
+  right: 0;
+  left: auto;
+  content: "\f053";
+  padding-left: .5em;
+  padding-right: 0;
+}

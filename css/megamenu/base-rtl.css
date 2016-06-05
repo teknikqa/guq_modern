@@ -1,0 +1,390 @@
+
+body .tb-megamenu-submenu {
+  width: 100%;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  -o-transform: none !important;
+}
+
+body .tb-megamenu .dropdown-menu .mega-nav > li {
+  float: right;
+  display: block;
+  width: 100%;
+}
+
+/* RTL Support for bootstrap.css
+ * See tb_megamenu/css/bootstrap.css for reference
+ * This is from cover the original file from line 37 -> 234
+ */
+.tb-megamenu .row-fluid [class*="span"] {
+  float: right !important;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+ .tb-megamenu .row {
+    margin-left: 0;
+    margin-right: -20px;
+  }
+ .tb-megamenu [class*="span"] {
+    float: right;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+ .tb-megamenu .row-fluid [class*="span"] {
+    float: right;
+    margin-left: 0;
+    *margin-left: 0;
+    margin-right: 2.7624309392265194%;
+    *margin-right: 2.709239449864817%;
+  }
+ .tb-megamenu .row-fluid [class*="span"]:first-child {
+   margin-right: 0;
+ }
+ .tb-megamenu .row-fluid .controls-row [class*="span"] + [class*="span"] {
+   margin-left: 0;
+   margin-right: 2.7624309392265194%;
+  }
+ .tb-megamenu .row-fluid .offset12 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 105.52486187845304%;
+   *margin-right: 105.41847889972962%;
+ }
+ .tb-megamenu .row-fluid .offset12:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 102.76243093922652%;
+   *margin-right: 102.6560479605031%;
+ }
+ .tb-megamenu .row-fluid .offset11 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 96.96132596685082%;
+   *margin-right: 96.8549429881274%;
+ }
+ .tb-megamenu .row-fluid .offset11:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 94.1988950276243%;
+   *margin-right: 94.09251204890089%;
+ }
+ .tb-megamenu .row-fluid .offset10 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 88.39779005524862%;
+   *margin-right: 88.2914070765252%;
+ }
+ .tb-megamenu .row-fluid .offset10:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 85.6353591160221%;
+   *margin-right: 85.52897613729868%;
+  }
+ .tb-megamenu .row-fluid .offset9 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 79.8342541436464%;
+   *margin-right: 79.72787116492299%;
+  }
+ .tb-megamenu .row-fluid .offset9:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 77.07182320441989%;
+   *margin-right: 76.96544022569647%;
+  }
+ .tb-megamenu .row-fluid .offset8 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 71.2707182320442%;
+   *margin-right: 71.16433525332079%;
+ }
+ .tb-megamenu .row-fluid .offset8:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 68.50828729281768%;
+   *margin-right: 68.40190431409427%;
+ }
+ .tb-megamenu .row-fluid .offset7 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 62.70718232044199%;
+   *margin-right: 62.600799341718584%;
+ }
+ .tb-megamenu .row-fluid .offset7:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 59.94475138121547%;
+   *margin-right: 59.838368402492065%;
+ }
+ .tb-megamenu .row-fluid .offset6 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 54.14364640883978%;
+   *margin-right: 54.037263430116376%;
+ }
+ .tb-megamenu .row-fluid .offset6:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 51.38121546961326%;
+   *margin-right: 51.27483249088986%;
+ }
+ .tb-megamenu .row-fluid .offset5 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 45.58011049723757%;
+   *margin-right: 45.47372751851417%;
+ }
+ .tb-megamenu .row-fluid .offset5:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 42.81767955801105%;
+   *margin-right: 42.71129657928765%;
+ }
+ .tb-megamenu .row-fluid .offset4 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 37.01657458563536%;
+   *margin-right: 36.91019160691196%;
+ }
+ .tb-megamenu .row-fluid .offset4:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 34.25414364640884%;
+   *margin-right: 34.14776066768544%;
+ }
+ .tb-megamenu .row-fluid .offset3 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 28.45303867403315%;
+   *margin-right: 28.346655695309746%;
+ }
+ .tb-megamenu .row-fluid .offset3:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 25.69060773480663%;
+   *margin-right: 25.584224756083227%;
+ }
+ .tb-megamenu .row-fluid .offset2 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 19.88950276243094%;
+   *margin-right: 19.783119783707537%;
+ }
+ .tb-megamenu .row-fluid .offset2:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 17.12707182320442%;
+   *margin-right: 17.02068884448102%;
+ }
+ .tb-megamenu .row-fluid .offset1 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 11.32596685082873%;
+   *margin-right: 11.219583872105325%;
+ }
+ .tb-megamenu .row-fluid .offset1:first-child {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 8.56353591160221%;
+   *margin-right: 8.457152932878806%;
+ }
+ .tb-megamenu input,
+ .tb-megamenu textarea,
+ .tb-megamenu .uneditable-input {
+     margin-right: 0;
+   }
+ .tb-megamenu .controls-row [class*="span"] + [class*="span"] {
+   margin-left: 0;
+   margin-right: 20px;
+ }
+}
+/* 2749 */
+@media (min-width: 1200px) {
+ .tb-megamenu .row {
+     margin-left: 0;
+     margin-right: -30px;
+   }
+ .tb-megamenu [class*="span"] {
+     margin-left: 0;
+     margin-left: 30px;
+   }
+ .tb-megamenu .row-fluid [class*="span"] {
+   float: right;
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 2.564102564102564%;
+   *margin-right: 2.5109110747408616%;
+   }
+ .tb-megamenu .row-fluid [class*="span"]:first-child {
+     margin-right: 0;
+   }
+ .tb-megamenu .row-fluid .controls-row [class*="span"] + [class*="span"] {
+     margin-left: 0;
+     margin-right: 2.564102564102564%;
+   }
+ .tb-megamenu .row-fluid .offset12 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 105.12820512820512%;
+   *margin-right: 105.02182214948171%;
+  }
+ .tb-megamenu .row-fluid .offset12:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 102.56410256410257%;
+     *margin-right: 102.45771958537915%;
+   }
+ .tb-megamenu .row-fluid .offset11 {
+   margin-left: 0;
+   *margin-left: 0;
+   margin-right: 96.58119658119658%;
+   *margin-right: 96.47481360247316%;
+   }
+ .tb-megamenu .row-fluid .offset11:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 94.01709401709402%;
+     *margin-right: 93.91071103837061%;
+   }
+ .tb-megamenu .row-fluid .offset10 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 88.03418803418803%;
+     *margin-right: 87.92780505546462%;
+   }
+ .tb-megamenu .row-fluid .offset10:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 85.47008547008548%;
+     *margin-right: 85.36370249136206%;
+   }
+ .tb-megamenu .row-fluid .offset9 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 79.48717948717949%;
+     *margin-right: 79.38079650845607%;
+   }
+ .tb-megamenu .row-fluid .offset9:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 76.92307692307693%;
+     *margin-right: 76.81669394435352%;
+   }
+ .tb-megamenu .row-fluid .offset8 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 70.94017094017094%;
+     *margin-right: 70.83378796144753%;
+   }
+ .tb-megamenu .row-fluid .offset8:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 68.37606837606839%;
+     *margin-right: 68.26968539734497%;
+   }
+ .tb-megamenu .row-fluid .offset7 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 62.393162393162385%;
+     *margin-right: 62.28677941443899%;
+   }
+ .tb-megamenu .row-fluid .offset7:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 59.82905982905982%;
+     *margin-right: 59.72267685033642%;
+   }
+ .tb-megamenu .row-fluid .offset6 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 53.84615384615384%;
+     *margin-right: 53.739770867430444%;
+   }
+ .tb-megamenu .row-fluid .offset6:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 51.28205128205128%;
+     *margin-right: 51.175668303327875%;
+   }
+ .tb-megamenu .row-fluid .offset5 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 45.299145299145295%;
+     *margin-right: 45.1927623204219%;
+   }
+ .tb-megamenu .row-fluid .offset5:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 42.73504273504273%;
+     *margin-right: 42.62865975631933%;
+   }
+ .tb-megamenu .row-fluid .offset4 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 36.75213675213675%;
+     *margin-right: 36.645753773413354%;
+   }
+ .tb-megamenu .row-fluid .offset4:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 34.18803418803419%;
+     *margin-right: 34.081651209310785%;
+   }
+ .tb-megamenu .row-fluid .offset3 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 28.205128205128204%;
+     *margin-right: 28.0987452264048%;
+   }
+ .tb-megamenu .row-fluid .offset3:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 25.641025641025642%;
+     *margin-right: 25.53464266230224%;
+   }
+ .tb-megamenu .row-fluid .offset2 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 19.65811965811966%;
+     *margin-right: 19.551736679396257%;
+   }
+ .tb-megamenu .row-fluid .offset2:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 17.094017094017094%;
+     *margin-right: 16.98763411529369%;
+   }
+ .tb-megamenu .row-fluid .offset1 {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 11.11111111111111%;
+     *margin-right: 11.004728132387708%;
+   }
+  .tb-megamenu .row-fluid .offset1:first-child {
+     margin-left: 0;
+     *margin-left: 0;
+     margin-right: 8.547008547008547%;
+     *margin-right: 8.440625568285142%;
+   }
+ .tb-megamenu input,
+ .tb-megamenu textarea,
+ .tb-megamenu .uneditable-input {
+     margin-right: 0;
+   }
+ .tb-megamenu .controls-row [class*="span"] + [class*="span"] {
+     margin-left: 0;
+     margin-right: 30px;
+   }
+ .tb-megamenu .thumbnails {
+     margin-left: 0;
+     margin-right: -30px;
+   }
+ .tb-megamenu .thumbnails > li {
+     margin-right: 0;
+     margin-left: 30px;
+   }
+ .tb-megamenu .row-fluid .thumbnails {
+     margin-right: 0;
+   }
+}

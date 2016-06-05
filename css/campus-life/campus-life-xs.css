@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 600px) {
+  /* -- For normal users & user have access to IPE -- */
+  .page-campus-life .panel-pane,
+  .page-campus-life .panels-ipe-portlet-wrapper {
+    width: 100% !important;
+  }
+
+  #campus-life {
+    width: 100% !important;
+  }
+
+  .cl-small-image-block,
+  .cl-large-image-block,
+  .cl-medium-image-block,
+  .page-campus-life .cl-fpp-link {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .page-campus-life .cl-fpp-link {
+    padding: 40px 15px;
+  }
+
+  .cl-video-block {
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .cl-medium-image-block img,
+  .cl-small-image-block img {
+    width: 100%;
+    height: auto;
+  }
+}

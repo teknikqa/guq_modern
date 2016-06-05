@@ -1,0 +1,793 @@
+/* --- News Block --- */
+body.page-news-events-blogs {
+  background-color: #FAFAFA;
+}
+
+.news-card-title {
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+}
+
+.news-card-date {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.news-card-more a:after {
+  content: "\f138";
+  font-family: FontAwesome;
+  padding: 0px 0px 0px 5px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pane-news-sfs-qatar-news .group-image-wrapper {
+  padding: 0px;
+  max-width: 280px;
+}
+
+.pane-news-sfs-qatar-news .views-row {
+  margin-bottom: 15px;
+}
+
+
+.node-news.view-mode-full .field {
+  margin-bottom: 20px;
+}
+
+/* --- for News & Events  --- */
+.teaser-list .views-row {
+  margin-bottom: 20px;
+  border: 1px solid #E5E5E5;
+  padding: 15px;
+  clear: both;
+  background: #fff;
+}
+
+.teaser-list .views-row:hover {
+  background: #FAFAFA;
+}
+
+.teaser-list .field-name-title h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+/* --- News: Tabs --- */
+
+.news-tabs .view-content {
+  border: 1px solid #CCC;
+  background: #fff;
+  padding: 25px;
+  margin-top: -1px;
+}
+
+.news-tabs .views-exposed-widgets,
+.news-tabs .views-exposed-form .views-exposed-widget {
+  margin: 0px;
+  padding: 0px;
+}
+
+.news-tabs .bef-select-as-radios .form-radio {
+  display: none;
+}
+
+.news-tabs .bef-select-as-radios .form-item {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.news-tabs .radio label {
+  padding: 10px 22px;
+  border: 1px solid #CCCCCC;
+  border-top: 3px solid #CCCCCC;
+  background: #ECECEA;
+  float: left;
+}
+
+.news-tabs input[checked="checked"] + label {
+  color: #002248;
+  border-bottom: 1px solid #fff;
+  border-top: 3px solid #002248;
+  background: #fff;
+}
+
+.news-tabs .radio label:hover {
+  color: #002248;
+  border-top: 3px solid #002248;
+}
+
+.news-and-event-video .video-wraper {
+  margin-bottom: 15px;
+}
+
+.news-tabs .field-name-title h4 {
+  height: 38px;
+  overflow: hidden;
+}
+
+/* --- Event --- */
+.node-event .field-name-field-event-geo {
+  position: relative;
+}
+
+.node-event .field-name-field-event-geo .field-items .field-item {
+  visibility: hidden;
+  background: #fff;
+  padding: 0px 10px 10px;
+  position: absolute;
+  bottom: 40px;
+  right: -104px;
+  background: #fff;
+  border-radius: 5px;
+  z-index: 499;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.node-event .field-name-field-event-geo.active .field-items .field-item {
+  visibility: visible;
+}
+
+.node-event .field-name-field-event-geo .gm-style {
+  display: none;
+}
+
+.node-event .field-name-field-event-geo.active .gm-style {
+  display: block;
+}
+
+.page-node.node-type-event .node-event .gm-style {
+  display: block;
+}
+
+.node-event.view-mode-full .field-name-field-event-geo .field-items {
+  height: auto;
+  visibility: visible;
+}
+
+.teaser-event-list .field-name-body {
+  margin-top: 5px;
+}
+
+.teaser-event-list .field-name-field-event-geo,
+.node-event.view-mode-mini_teaser .field-name-field-event-geo {
+  width: 13px;
+  margin-right: 5px;
+  float: left;
+}
+
+.teaser-event-list .field-name-field-event-geo .field-label,
+.node-event.view-mode-mini_teaser .field-name-field-event-geo .field-label {
+  text-indent: -9999px;
+  background: url('../../images/location-icon.png') no-repeat;
+  height: 19px;
+}
+
+.teaser-event-list .field-name-field-event-geo .field-label:hover,
+.node-event.view-mode-mini_teaser .field-name-field-event-geo .field-label:hover {
+  cursor: pointer;
+}
+
+.node-event.view-mode-full .field-type-image {
+  margin-bottom: 15px;
+}
+
+.node-event.view-mode-full .field-name-field-event-geo .field-items .field-item {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  visibility: visible;
+  border: 0px none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.node-event.view-mode-full .field-name-field-event-geo .field-items .field-item:before,
+.node-event.view-mode-full .field-name-field-event-geo .field-items .field-item:after {
+  border: 0px none;
+}
+
+.node-event .event-time-wrapper {
+  color: #6AAEDA;
+  margin-bottom: 5px;
+}
+
+.node-type-event .popover {
+  display: none !important;
+}
+
+.node-news .field-name-field-date,
+.node-blog .field-name-field-date .field-items {
+  color: #575757;
+}
+
+.event-by-category .events-full {
+  margin-bottom: 15px;
+}
+
+.col-sm-4 .event-by-category .events-full,
+.col-sm-3 .event-by-category .events-full {
+  width: 100% !important;
+}
+
+.event-by-category .pager {
+  margin: 0px 0px 5px;
+}
+
+.event-list .node-event.node-teaser .field-name-date-event {
+  float: left;
+}
+
+.event-list .node-event.node-teaser .field-name-date-event {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.teaser-event-list .field-name-body {
+  padding-top: 1px;
+}
+
+.panel-separator {
+  min-height: 1px;
+}
+
+.node-event .left-grop {
+  float: left;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.node-event.node-teaser .group-right {
+  width: 84%;
+}
+
+.node-event .group-right {
+  margin-left: 80px;
+}
+
+.node-event.node-teaser .field-name-body {
+  clear: both;
+}
+
+/* --- Event: Date Style --- */
+.event-date-wrapper {
+  border: 1px solid #80807A;
+  text-align: center;
+  color: #80807A;
+  cursor: pointer;
+  float: left;
+  width: 70px;
+  background: #fff;
+  text-transform: uppercase;
+}
+
+.node-event.view-mode-mini_teaser:hover .field-name-date-event .event-date-wrapper,
+.node-event.view-mode-teaser:hover .field-name-date-event .event-date-wrapper {
+  border: 1px solid #80002E;
+  color: #80002E;
+}
+.node-event.view-mode-mini_teaser:hover .field-name-date-event .event-date-wrapper span.month,
+.node-event.view-mode-teaser:hover .field-name-date-event .event-date-wrapper span.month {
+  background: #80002E;
+}
+
+.node-event.view-mode-mini_teaser h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.event-date-wrapper span {
+  display: block;
+  padding: 2px;
+}
+
+.event-date-wrapper span.month {
+  background: #80807A;
+  color: #fff;
+  font-size: 14px;
+}
+
+.event-date-wrapper span.day {
+  font-size: 36px;
+  height: 40px;
+  line-height: 38px;
+  font-weight: lighter;
+}
+
+.event-date-wrapper span.year {
+  font-size: 12px;
+}
+
+/* --- In the Media --- */
+.view-id-in_the_media .views-row .views-field-field-title {
+  color: #575757;
+}
+
+.pane-in-the-media-news-media .pane-content {
+  padding: 0px 5px;
+}
+
+.view-id-in_the_media .views-row.views-row-last {
+  padding: 0px;
+  margin: 0px;
+  border: 0px none;
+}
+
+/* --- Event Full page --- */
+.node-event.view-mode-full iframe {
+  width: 100%;
+}
+
+.node-event.view-mode-full .col-sm-4  .field-label {
+  margin: 0px;
+  font-family: "pragmatica-web-condensed","Arial Narrow","Helvetica","Arial","sans-serif";
+}
+
+.node-event.view-mode-full .field {
+  margin-bottom: 5px;
+}
+
+.node-event.view-mode-full .col-sm-4 .field {
+  margin-bottom: 20px;
+}
+
+.node-event.view-mode-full .field-name-field-video,
+.node-event.view-mode-full .field-name-field-images {
+  margin-top: 20px;
+}
+
+.node-event.view-mode-full .field.field-name-field-video.field-type-file.field-label-hidden .content {
+  margin: 0px;
+}
+
+.node-event.view-mode-full .field-name-field-event-related-content .field-items {
+  background: #fff;
+  padding: 10px;
+  border-top: 0px none;
+}
+
+.node-event.view-mode-full .field-name-field-event-related-content .field-item {
+  padding: 10px 0px;
+}
+
+/* --- Blogs --- */
+.blogs .secondary-column {
+  border-left: 1px solid #ddd;
+}
+
+.blogs .secondary-column .block {
+  margin-bottom: 20px;
+}
+
+.blogs .secondary-column ul {
+  margin: 0px;
+}
+
+.blogs .secondary-column .block-title {
+  background-image: url("../../images/bg/grid_bg.png");
+  background-repeat: repeat;
+  border-bottom: 1px solid #d1d1d1;
+  color: #002147;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 0px 15px;
+  padding: 10px 15px;
+}
+
+.blog-title-view li {
+  margin-bottom: 15px;
+}
+
+.blog-title-view li.views-row-last {
+  margin-bottom: 0px;
+}
+
+.block-tags-blog span.views-summary {
+  background: none repeat scroll 0 0 #6babe5;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 85%;
+  font-weight: normal;
+  margin: 0 3px 3px 0;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  float: left;
+}
+
+.block-tags-blog span.views-summary:hover {
+  background: none repeat scroll 0 0 #69A1D3;
+  cursor: pointer;
+}
+
+.block-tags-blog span.views-summary a {
+  color: #fff;
+}
+
+.block-tags-blog span.views-summary a:hover {
+  text-decoration: none;
+}
+
+.block-list li {
+  margin-top: 5px;
+}
+
+.node.node-blog .field {
+  margin-bottom: 10px;
+}
+
+.node.node-blog .float-field .field {
+  float: left;
+  clear: none;
+  margin-right: 12px;
+}
+
+.blog-list .views-row {
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.blog-list .views-row.views-row-latest {
+  border: 0px none;
+}
+
+.news-sidebar .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.news-sidebar .views-row.views-row-last {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-sidebar .views-row .views-field-field-date {
+  color: #575757;
+}
+
+.node-news.view-mode-full .field-name-field-date {
+  float: left;
+}
+
+.node-news.view-mode-full .field-name-field-share-this {
+  float: right;
+}
+
+.node-news.view-mode-full .field-name-field-images,
+.node-news.view-mode-full .field-name-body {
+  clear: both;
+}
+
+.node-news .field-name-field-link .field-item {
+  display: inline;
+  margin-right: 5px;
+}
+
+.node-news .field-name-field-link .field-item:first-child:before {
+  display: none;
+}
+
+.node-news .field-name-field-link .field-item:before {
+  content: ",";
+}
+
+.node-news.node-teaser .img-thumbnail {
+  margin-right: 15px;
+  float: left;
+  width: auto;
+}
+
+.attached-media > a {
+  margin-right: 10px;
+}
+
+.domain-cirs-georgetown-edu .attached-media {
+  display: none;
+}
+
+.geolocation-map {
+  margin: 0px;
+}
+
+.popover .gmnoprint {
+  display: none !important;
+}
+
+.popover-closed:hover {
+  cursor: pointer;
+}
+
+.popover-closed {
+  text-align: right;
+  padding: 0px 5px;
+  float: right;
+}
+
+.node-event.view-mode-full .field-name-field-event-geo .field-items .field-item .popover-closed {
+  display: none;
+}
+/****************** Events popover arrow *****************/
+.node-event .field-name-field-event-geo .field-items .field-item:after,
+.node-event .field-name-field-event-geo .field-items .field-item:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.node-event .field-name-field-event-geo .field-items .field-item:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.node-event .field-name-field-event-geo .field-items .field-item:before {
+	border-color: rgba(204, 204, 204, 0);
+	border-top-color: #ccc;
+	border-width: 16px;
+	margin-left: -16px;
+}
+
+.megamenu-events a {
+  padding: 0px !important;
+  clear: none !important;
+}
+
+.megamenu-events .views-row {
+  margin-bottom: 15px;
+}
+
+.megamenu-events .field-name-field-event-geo {
+  display: none;
+}
+
+.jcbx-glry-classic {
+  border: 1px solid #ddd !important;
+}
+
+.view-display-id-emp_events_sidebar.news-tabs .view-footer div {
+  width: 100%;
+  float: none;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.views-widget-sort-by,
+.views-widget-sort-order {
+  display: none;
+}
+
+.juicebox-gallery {
+  z-index: 499;
+  position: relative;
+}
+
+
+.group-event-details {
+  background-color: #F8F7F6;
+  border: 1px solid #BABABA;
+  padding: 15px 10px 0px 10px;
+  position: relative;
+}
+
+.node-event.view-mode-full .group-event-details .field {
+  margin: 15px auto;
+}
+
+.view-event .date,
+.view-event .time {
+  color: #6AAEDA;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+}
+
+.date span,
+.time span {
+  font-style: normal;
+}
+
+.group-event-details .date span,
+.group-event-details .time span {
+  text-transform: uppercase;
+}
+
+.group-event-details .date {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+}
+
+.group-event-details .time {
+  display: block;
+  color: #003e7e;
+}
+
+.group-event-details .field-name-field-link {
+  float: right;
+  background-color: rgb(0, 33, 76);
+  padding: 5px 10px;
+  border-radius: 2px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+.node-event.view-mode-full .group-event-details .field-name-field-link {
+  margin: 0;
+}
+
+
+.group-event-details .field-name-field-link a {
+  color: #FFF;
+}
+
+.group-event-details .field-name-ical a {
+  font-size: 13px;
+}
+
+.node-event.view-mode-full .group-event-details .field.field-name-field-event-audience {
+  margin-bottom: 45px;
+}
+
+.group-event-details .field-name-field-event-audience .field-item {
+  float: left;
+}
+
+.i18n-ar .group-event-details .field-name-field-event-audience .field-item {
+  float: right;
+}
+
+.group-event-details .field-name-field-event-audience .field-item::after {
+  content: ' , ';
+  margin-right: 5px;
+}
+
+.group-event-details .field-name-field-event-audience .field-item:last-child:after {
+  content: '';
+}
+
+body.node-type-event .node-event.view-mode-full .field.field-name-ical {
+  margin-bottom: 20px;
+}
+
+body.node-type-event .field-name-ical .feed-icon {
+  text-align: center;
+  border: 1px solid #BABABA;
+}
+
+body.node-type-event .field-name-ical .feed-icon a,
+body.node-type-event .field-name-ical .feed-icon.text-right a {
+  border: 0 none;
+  width: 100%;
+  padding: 5px;
+  color: rgb(0, 33, 76);
+}
+
+body.node-type-event .field-name-ical .feed-icon a:hover,
+body.node-type-event .field-name-ical .feed-icon a:hover small,
+body.node-type-event .field-name-ical .feed-icon.text-right a:hover,
+body.node-type-event .field-name-ical .feed-icon.text-right a:hover small {
+  color: #89002e;
+}
+
+body.node-type-event .node-event.view-mode-full .field-name-field-subtitle {
+  color: #003e7e;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #C0B8B2;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+body.node-type-event .field-name-field-event-related-content {
+  border: 1px solid #BABABA;
+}
+
+body.node-type-event .node-event.view-mode-full .col-sm-4 .field-name-field-event-related-content .field-label {
+  background-image: none;
+  border-bottom: 0 none;
+  background-color: #F8F7F6;
+  color: #000;
+  font-size: 18px;
+}
+
+.view-on-google-map {
+  padding: 5px;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #BABABA;
+}
+
+.view-on-google-map a {
+  display: block;
+}
+
+.view-on-google-map a:hover {
+  text-decoration: none;
+}
+
+.view-on-google-map:focus,
+.view-on-google-map:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.node-event.view-mode-full .group-event-details .field:first-child {
+  margin-top: 0;
+}
+
+.node-event.view-mode-full .group-event-details .field:last-child {
+  margin-bottom: 25px;
+}
+
+body.node-type-event .field-name-ical .feed-icon a small,
+body.node-type-event .field-name-ical .feed-icon.text-right a small {
+  font-size: 100%;
+  font-size: 13px;
+  color: #003e7e;
+}
+
+.view-academic-calendars .academic-event-date .date {
+  color: #333;/*#002147;*/
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.view-academic-calendars .academic-event-date .time {
+  display: none;
+}
+
+.view-academic-calendars .academic-event-date .date-and-time {
+  float: left;
+}
+
+.pane-event-event-by-faculty-visibility-ical .view-footer,
+.pane-event-event-by-research-visibility-ical .view-footer,
+.pane-event-event-by-current-students-visibility-ical .view-footer {
+  display: inline-block;
+  float: left;
+}
+
+.pane-event-event-by-faculty-visibility-ical .feed-icon,
+.pane-event-event-by-research-visibility-ical .feed-icon,
+.pane-event-event-by-current-students-visibility-ical .feed-icon {
+  display: inline-block;
+  float: right;
+}
+
+/** <Have JB styled for ltr: #RA:2015-05-19:> **/
+body .jb-navigation .jbn-nav-right-touch-area .jbn-nav-button {
+  right: 25% !important;
+  left: auto !important;
+}
+
+body  .jb-navigation .jbn-nav-left-touch-area .jbn-nav-button {
+  left: 25% !important;
+  right: auto !important;
+}
+
+#jb-glry-dlg .jb-navigation .jbn-nav-right-touch-area .jbn-nav-button {
+  right: 45% !important;
+  left: auto !important;
+}
+
+#jb-glry-dlg .jb-navigation .jbn-nav-left-touch-area .jbn-nav-button {
+  right: auto !important;
+  left: 45% !important;
+}

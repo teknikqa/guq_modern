@@ -1,0 +1,219 @@
+.panel-homepage .home-page-featured i,
+.panel-homepage .view-mode-home_page_all i {
+  margin: 5px 0px 5px 5px;
+}
+
+.panel-homepage .field-name-node-link {
+  text-align: left;
+}
+
+.panel-homepage .field-name-node-link a:after {
+  padding: 0 5px 0 0;
+  content: "\f137";
+}
+
+.homepage-all-tab-top-region .pane-in-the-media:before,
+.home-page-featured.view-display-id-block_6:before {
+  content: 'الأخبار';
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  border-right: 1px solid #fff;
+  left: 0px;
+  right: auto;
+  border-left: none;
+}
+
+.homepage-all-tab-top-region .pane-in-the-media:before {
+  left: -10px;
+}
+
+.homepage-all-horizontal .field-name-field-images {
+  float: right;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.homepage-block-category {
+  left: 0px;
+  border-right: 1px solid #FFF;
+  right: auto;
+  border-left: none;
+}
+
+/* ---- All tab / handle news node --- */
+
+.homepage-all-tab-top-region .homepage-all-horizontal .field-name-field-images {
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.homepage-all-center-left-bottom {
+  float: right;
+}
+
+/* --- Our Library Block --- */
+
+.block-our-library .inner-content-container {
+  right: 30px;
+  left: auto;
+}
+
+.block-our-library-main-title {
+  padding: 20px 11px 7px 20px;
+}
+
+/* --- Front Page slider --- */
+
+.frontpage-slider .flex-direction-nav a.flex-prev {
+  right: 10px;
+  left: auto;
+}
+
+.frontpage-slider .flex-direction-nav a.flex-next {
+  left: 10px;
+  right: auto;
+}
+
+/* --- Front Slider: Blur layers --- */
+
+.frontpage-slider .flex-viewport .prev-blur {
+  right: -1000px;
+  left: auto;
+}
+
+.frontpage-slider .flex-viewport .next-blur {
+  left: -1000px;
+  right: auto;
+}
+
+.view-hero-slider .flex-direction-nav a.flex-next:before {
+  content: '\f001';
+}
+
+.view-hero-slider .flex-direction-nav a:before {
+  content: '\f002';
+}
+
+body .panel-homepage ul.quicktabs-tabs.quicktabs-style-basic li a {
+  font: bold 22px "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  height: 50px;
+}
+
+.home-page-featured.view-display-id-block_6,
+.homepage-block-category,
+.view-mode-home_page_all h4.teaser-title,
+.home-page-featured h4.teaser-title {
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* --- Home page: Tabs Colors -- */
+.panel-homepage ul.quicktabs-tabs li.الكل {
+  border-bottom-color: #002248;
+}
+
+.panel-homepage ul.quicktabs-tabs li.الكل.active {
+  background: #002248;
+}
+
+.panel-homepage ul.quicktabs-tabs li.الأخبار {
+  border-bottom-color: #6babe5;
+}
+
+.panel-homepage ul.quicktabs-tabs li.الأخبار.active {
+  background: #6babe5;
+}
+
+.panel-homepage ul.quicktabs-tabs li.مركز-الدراسات-الدولية-و-الإقليمية {
+  border-bottom-color: #8a2432;
+}
+
+.panel-homepage ul.quicktabs-tabs li.مركز-الدراسات-الدولية-و-الإقليمية.active {
+  background: #8a2432;
+}
+
+.panel-homepage ul.quicktabs-tabs li.حياة-الطلاب {
+  border-bottom-color: #72984b;
+}
+
+.panel-homepage ul.quicktabs-tabs li.حياة-الطلاب.active {
+  background: #72984b;
+}
+
+.panel-homepage ul.quicktabs-tabs li.البحوث {
+  border-bottom-color: #867875;
+}
+
+.panel-homepage ul.quicktabs-tabs li.البحوث.active {
+  background: #867875;
+}
+
+.homepage-row ul.quicktabs-tabs.quicktabs-style-basic li {
+  float: right;
+  margin-left: 0;
+  margin-right: auto;
+  width: auto;
+}
+
+.homepage-row ul.quicktabs-tabs.quicktabs-style-basic li:last-child {
+  width: 100%;
+}
+
+.frontpage-slider .flexslider .slides .group-hero-brief {
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li {
+    min-width: 50%;
+  }
+
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li:last-child {
+    width: 100%;
+  }
+
+  .block-our-library .inner-content-container {
+    right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li {
+    min-width: 3%;
+  }
+
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li:last-child {
+    width: auto;
+  }
+
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li a {
+    font-size: 15px !important;
+    padding: 0 15px 0 10px;
+    margin-right: 0 15px 0 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li {
+    min-width: 14%;
+  }
+
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li:last-child {
+    width: 39%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li {
+    min-width: 17%;
+  }
+
+  .homepage-row ul.quicktabs-tabs.quicktabs-style-basic li:last-child {
+    width: 32%;
+  }
+}

@@ -1,0 +1,22 @@
+.node-classifieds .img-thumbnail {
+  margin-right: 15px;
+  float: left;
+  width: auto;
+}
+
+.node-type-classifieds .node-classifieds .field {
+  margin-bottom: 20px;
+}
+
+
+.classifieds-related .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.classifieds-related .views-row.views-row-last {
+  border-bottom: 0 none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

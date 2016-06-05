@@ -1,0 +1,71 @@
+@media print {
+  .visible-xs,
+  .hidden-xs,
+  .visible-sm,
+  .hidden-sm,
+  .region-top-nav .block-search,
+  #block-quicktabs-social-networks,
+  .frontpage-slider,
+  .pane-block-46,
+  .region-footer-area,
+  .region-top-footer,
+  .region-navigation,
+  .top-nav,
+  .region-footer-menu,
+  .region-header-mobile,
+  #breadcrumb-wrapper,
+  #skip-links,
+  .view-publications .col-xs-3.col-sm-2,
+  .views-exposed-form,
+  .pane-webform,
+  .pagination,
+  .flexslider,
+  .domain-qatar-sfs-georgetown-edu .brand-wrapper,
+  .domain-qatar-sfs-georgetown-edu #page-header.affix .brand-wrapper,
+  .block-menu-block.sidebar-menu-block,
+  .publications-slider,
+  #page-header.affix .top-nav,
+  .mobile-overlay,
+  .navbar-tray,
+  .navbar-tab,
+  .primary-tabs-wrapper,
+  .block-workbench {
+    display: none !important;
+  }
+
+  body {
+    padding-top: 0 !important;
+  }
+
+  body.page-campus-life .panel-pane{
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
+  body #page-header.affix {
+    position: relative;
+    overflow: inherit !important;
+  }
+
+  body .visible-print.logo {
+    position: relative !important;
+    display: block !important;
+    clear : both !important;
+    top: 0;
+  }
+
+   a[href]:after {
+     content: "";
+   }
+
+    p, h2, h3 {
+      orphans: 3;
+       widows: 3;
+    }
+
+    h1, h2, h3 {
+      page-break-after: avoid;
+    }
+
+}

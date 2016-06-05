@@ -1,0 +1,88 @@
+.more a:after {
+  padding: 0 5px 0 0;
+}
+
+.more a:after,
+a.more:after,
+a.more-link:after {
+  content: "\f137";
+  padding: 0 5px 0 0;
+}
+
+body {
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.col-sm-1,
+.col-md-1,
+.col-sm-2,
+.col-md-2,
+.col-sm-3,
+.col-md-3,
+.col-sm-4,
+.col-md-4 {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.region-top-nav li,
+#navigation li {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.more a {
+  font-size: 16px;
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a.more,
+a.more-link {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.panel-region-middle h3,
+.panel-region-middle h2,
+.user-publications .views-group,
+.top-nav #block-menu-menu-secondary-menu ul.menu.nav > li a,
+#navigation .tb-megamenu .nav  li.level-2 .tb-megamenu-submenu a,
+.footer-contact-info .uni-name,
+.page-header h1 {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-header .page-title-suffix {
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.main-content-title,
+.view-mode-full .field-name-title h2{
+  font-family: "Frutiger Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.view-page-slider figcaption {
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+blockquote p {
+  font-family: "Neue Helvetica Arabic W20", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.view-empty {
+  font-size: 16px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* cirs site home pgae sidebar slider*/
+.center-highlight .field-item h5 {
+  margin-bottom: 10px;
+}

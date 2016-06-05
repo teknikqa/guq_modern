@@ -1,0 +1,52 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /** <Research user profile page: #RA:2014-11-10: > **/
+    .user-profile-sidebar.col-sm-2 {
+       width: 13%;
+    }
+
+    .user-profile-sidebar.col-sm-10 {
+       width: 87%;
+    }
+    /** </Research user profile page> **/
+   
+    .research-project-team .researcher-role {
+      float: left;
+      padding-left: 15px;
+    }
+
+    .research-project-team .researcher-bio {
+      padding-left: 15px;
+    }
+}
+
+/* Small devices (tablets, less than 768px) */
+@media (max-width: 768px) { 
+  
+  /*************** Research Centers tabs ***********/
+  #quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist {
+    float: none;
+  }
+  
+  #quicktabs-research_center .quicktabs_main.quicktabs-style-navlist {
+    width: 100%;
+    clear: both;
+  }
+  
+  #quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li.active {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 0px;
+    border-right: 1px solid #a5a5a5;
+    margin-bottom: -1px;
+  }
+
+  #quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li a {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #quicktabs-research_center ul.quicktabs-tabs.quicktabs-style-navlist li {
+    float: left;
+  }
+}

@@ -1,0 +1,19 @@
+@media (min-width: 992px)  {
+	.homepage-bottom .node-webform {
+		min-height: 227px;
+	}
+
+	.view-mode-home_page_all h4.teaser-title {
+		font-size: 16px;
+	}
+
+	.homepage-all-horizontal .field-name-field-images {
+		max-width: 45%;
+	}
+
+	.front .view-id-in_the_media .views-row {
+		margin-bottom: 17px;
+		padding-bottom: 17px;
+	}
+
+}

@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .brand {
+    background: none;
+  }
+
+  .panel-separator {
+    margin-bottom: 30px !important;
+  }
+
+  .panel-homepage .col-xs-12 {
+    margin-bottom: 30px;
+  }
+
+  footer#footer {
+    margin-top: 0px;
+  }
+
+  .basic-page-sidebar {
+    padding-bottom: 0px;
+  }
+
+  #bottom-content {
+    margin-bottom: 55px;
+  }
+
+  .col-sm-4 .pane-bundle-cfa .col-sm-6 {
+    width: 100% !important;
+  }
+
+  .quick-links-block a {
+    font-size: 15px;
+  }
+
+/** hiding horizontal scroll bar in Arabic pages **/
+  [dir='rtl'] .guq-page-wrapper {
+    overflow-x: hidden;
+  }
+}

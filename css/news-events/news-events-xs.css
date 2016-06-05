@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .node-event.view-mode-center .field-name-field-images {
+    float: none !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+
+  .i18n-en .group-event-details .field-name-field-link {
+   top: 8px;
+   right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .node-news.node-teaser .img-thumbnail {
+    float: none;
+    margin: 0px 0px 10px;
+  }
+
+  .archive-events .field-name-title {
+    clear: both;
+    padding-top: 10px;
+  }
+
+  .node-event.node-teaser .group-right {
+    float: left;
+    width: 68%;
+  }
+
+  .node-event.view-mode-mini_teaser .group-right {
+    width: 72%;
+  }
+
+  .emp-events-sidebar.news-tabs .group-right-group {
+    margin: 0px !important;
+    width: 66%;
+  }
+}

@@ -1,0 +1,20 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 1070px;
+  }
+  .top-nav ul.menu.nav > li a {
+    padding: 8px 10px 7px;
+  }
+
+  #page-header.affix .top-nav ul.menu.nav > li a {
+    padding: 13px 6px 12px;
+  }
+
+  .affix #navigation .tb-megamenu .nav > li > a {
+    padding: 13px 6px 12px;
+  }
+
+  #page-header.affix .top-nav {
+    font-size: 11px;
+  }
+}

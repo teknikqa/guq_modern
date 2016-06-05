@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 991px)  {
+	.quick-links-block .ql-content {
+		border-left: none;
+	}
+
+	.quick-links-block .ql-thumbnail {
+		margin-right: 0px;
+		margin-bottom: 20px;
+		text-align: center;
+		float: none !important;
+	}
+
+	 .page-campus-life #main-content {
+	  	width: 100%;
+	 }
+
+	.page-campus-life #campus-life .panels-flexible-region-inside,
+	.panels-flexible-region-471-center-inside{
+		width: 770px;
+            margin-right: auto;
+            margin-left: auto;
+	}
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.page-campus-life #campus-life .panels-flexible-region-inside,
+	.panels-flexible-region-471-center-inside{
+		width: 570px;
+            margin-right: auto;
+            margin-left: auto;
+	}
+}

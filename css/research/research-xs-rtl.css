@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+
+  /* --- Research proejcts LB Block --- */
+
+   /** <Research project team: #RA:2014-09-14:> **/
+  .research-project-team .researcher-picture {
+
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .research-project-team .researcher-name {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  /** </Research project team> **/
+}

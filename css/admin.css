@@ -1,0 +1,322 @@
+/** Use this file to custom css for logged in users **/
+
+
+body #research-project-node-form .redirect-list {
+  display: none !important;
+}
+
+body #research-project-node-form div[class*="-form-status"] {
+  display: none !important;
+}
+
+.node-form .date-no-float {
+  float: left;
+  clear: none;
+}
+
+.node-form .start-date-wrapper,
+.node-form .end-date-wrapper {
+  width: 50%;
+}
+
+.node-form .date-padding {
+  padding: 0px;
+}
+
+.node-form .field-name-field-event-date input {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.node-form .form-type-date-popup {
+  width: 100%;
+}
+
+.node-form .end-date-wrapper label {
+  float: left;
+  padding: 30px 60px 0px 40px;
+}
+
+.node-form .end-date-wrapper #edit-field-event-date-und-0-value2 label {
+  padding: 0px;
+}
+
+.float-field-form .form-wrapper {
+  float: left;
+  width: 50%;
+}
+
+.float-field-form {
+  clear: both;
+  width: 100%;
+  float: left;
+}
+
+/* Hide add/edit and  remove aciton from views */
+.funded-by-item .field-collection-container .field-collection-view-links,
+.funded-by-item .field-collection-container .action-links,
+.node-award-and-fellowship .field-collection-container .field-collection-view-links,
+.node-award-and-fellowship .field-collection-container .action-links,
+.awards-fellowship-item .field-collection-container .field-collection-view-links,
+.awards-fellowship-item .field-collection-container .action-links,
+.node-student-highlight .field-collection-container .field-collection-view-links,
+.node-student-highlight .field-collection-container .action-links,
+.student-highlight-item .field-collection-container .field-collection-view-links,
+.student-highlight-item .field-collection-container .action-links,
+.projects-slider .field-collection-container .field-collection-view-links,
+.projects-slider .field-collection-container .action-links,
+#quicktabs-research_projects_tabs .field-collection-container .field-collection-view-links,
+#quicktabs-research_projects_tabs .field-collection-container .action-links {
+  display: none;
+}
+
+form .field-name-field-person-type {
+  float: none;
+  display: block;
+  margin-right: 0px;
+  font-size: 13px;
+  line-height: 1.3em;
+}
+
+.form-control.form-group {
+  height: auto;
+}
+
+/* --- Panelizer Fix --- */
+.full-width {
+  width: 100% !important;
+}
+
+/** <Book Module> **/
+
+.node-type-research-project .book_add_child {
+  float:right;
+}
+
+.node-type-research-project .book_add_child a {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #002269;
+  border-color: #001a50;
+}
+.node-type-research-project .book_add_child a:focus,
+.node-type-research-project .book_add_child a:active:focus,
+.node-type-research-project .book_add_child a.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  color: #ffffff;
+  background-color: #001136;
+  border-color: #000612;
+}
+.node-type-research-project .book_add_child a:hover,
+.node-type-research-project .book_add_child a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #001136;
+  border-color: #000612;
+}
+
+.node-type-research-project ul.links.list-inline li:before {
+  content: '';
+}
+/** </Book Module> **/
+
+/** </chosen for select in admin pages #RA:2014-11-06:> **/
+@media (min-width: 992px) {
+
+  /** <chosen for select in admin pages: #RA:2014-09-10:> **/
+  body.page-node-edit .chosen-container-multi .chosen-choices,
+  body.page-node-add .chosen-container-multi .chosen-choices,
+  body.page-admin .chosen-container-multi .chosen-choices,
+  body.page-user-edit .chosen-container-multi .chosen-choices {
+    width: auto !important;
+  }
+
+  body.page-node-edit .chosen-container,
+  body.page-node-edit .chosen-container.chosen-container-multi,
+  body.page-node-add .chosen-container,
+  body.page-node-add .chosen-container.chosen-container-multi,
+  body.page-admin .chosen-container,
+  body.page-admin .chosen-container.chosen-container-multi {
+    min-width: 200px;
+    width: auto !important;
+  }
+
+  body.page-user-edit .chosen-container,
+  body.page-user-edit .chosen-container.chosen-container-multi,
+  #edit_field_newsletter_category_und_chosen,
+  #edit_field_resource_department_und_chosen,
+  body.page-node-add .field-name-field-research-role .chosen-container {
+    min-width: 300px !important;
+    width: auto !important;
+  }
+
+  #edit_book_bid_chosen {
+    min-width: 100%;
+  }
+
+  .chosen-drop,
+  .chosen-container .chosen-choice,
+  .chosen-drop.chosen-drop-above,
+  .chosen-container .chosen-choice .chosen-arrow,
+  .chosen-arrow {
+    border-radius: 0;
+  }
+
+  .node-form.node-biblio-form .form-item-title .form-control {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  body.page-user-edit .form-type-select label,
+  body.page-node-add-page .form-type-select label {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+
+  body.page-user-edit .chosen-container.chosen-container-multi,
+  body.page-node-add-page .chosen-container-single {
+    clear: both;
+  }
+
+  body.page-user-edit .field-name-field-user-languages.field-widget-options-select,
+  body.page-user-edit .field-name-field-user-languages.field-name-field-user-expertise,
+  body.page-node-add-page .field-name-field-permission-department {
+    display: block;
+    width: 100%;
+    height: 40px;
+  }
+
+  body.page-node-add .vertical-tabs-panes,
+  body.page-user-edit .vertical-tabs-panes,
+  body.page-node-add .tabs-left>.tab-content,
+  body.page-node-add .tabs-right>.tab-content,
+  body.page-user-editd .tabs-left>.tab-content,
+  body.page-user-edit .tabs-right>.tab-content {
+    min-height: 500px !important;
+    padding-bottom: 100px !important;
+  }
+
+  body .chosen-container .chosen-drop {
+    z-index: 3000;
+  }
+
+
+}
+/** </chosen for select in admin pages> **/
+
+/** <Campus life Page for Editors: #RA:2014-10-16:> **/ 
+.page-campus-life .panels-ipe-sort-container.ui-sortable div.panels-ipe-portlet-wrapper {
+  position: relative !important;
+}
+/** </Campus life Page for Editors> **/ 
+
+/** <My Workbench: #RA:2014-10-21:> **/
+body div.admin.my-workbench .left {
+  width: 20%;
+}
+
+body div.admin.my-workbench .right {
+  width: 70%;
+}
+/** </My Workbench> **/
+
+#navbar-administration a:hover,
+.navbar-tray a:hover {
+  cursor : pointer !important;
+  cursor : hand !important;
+}
+
+@media (max-width: 767px) {
+  body.page-user-edit .tabs-left>.nav-tabs {
+    width: 100%;
+  }
+
+  body.page-user-edit .tabs-left>.nav-tabs>a {
+    margin: 0;
+  }
+
+  body.page-user-edit .tabs-left>.nav-tabs>.active>a,
+  body.page-user-edit .tabs-left>.nav-tabs>.active>a:hover,
+  body.page-user-edit .tabs-left>.nav-tabs>.active>a:focus {
+    background-color: #002269 !important;
+    border-color: #002269 !important;
+    color: #fff !important;
+    margin: 0;
+  }
+
+  body.page-user-edit .tabs-left>.nav-tabs li {
+    border-color: #002269;
+    border: 1px solid;
+  }
+
+}
+
+/** <User Profile: #RA:2015-01-19:> **/
+.group-profile-name .field-type-text {
+  float: left;
+  padding-left: 5px;
+}
+/** </User Profile> **/
+
+/* --- Translation --- */
+.node-form .form-type-select.form-item-language {
+  clear: both;
+  margin-top: 10px;
+  position: relative !important;
+  height: 35px;
+}
+
+.node-form .form-item-domains {
+  clear: both;
+  overflow: hidden;
+}
+
+.node-form .form-item-domain-source .help-block {
+  clear: both;
+}
+
+/** <Translation client: #RA:2015-01-21:> **/ 
+#l10n-client-data,
+#l10n-client {
+  z-index: 110000;
+}
+/** </Translation client> **/
+
+/** <visualidentity georgetown: #RA:2015-01-27:> **/
+.guq-brand-color {
+  color: #002147;
+}
+/** </visualidentity georgetown> **/
+
+.page-user-edit .tabs-left>.tab-content {
+  overflow: visible;
+  margin-left: 219px;
+}
+
+@media(max-width: 845px){
+  .page-user-edit .tabs-left>.tab-content {
+    overflow: scroll;
+    margin-left: 0;
+ }
+}

@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 991px)  {
+	
+}
+
+@media (max-width: 1025px) {
+  .node-event.node-teaser .group-right {
+    width: 80%;
+  }
+}
+
+/* Small devices (tablets, less than 768px) */
+@media (max-width: 768px) { 
+  .attached-media {
+    display: none;
+  }
+  
+  .node-event.node-teaser .group-right {
+    float: left;
+    width: 82%;
+  }
+  
+}

@@ -1,0 +1,24 @@
+@media (min-width: 768px) and (max-width: 991px)  {
+  .homepage-horizontal-style .field-name-field-images {
+    max-width: 35%;
+    margin-bottom: 15px;
+  }
+
+  .home-page-featured h4.teaser-title,
+  .view-mode-home_page_all h4.teaser-title  {
+    font-size: 17px;
+  }
+
+  .block-our-library .inner-content-container {
+    width: 70%;
+    bottom: 1px;
+  }
+
+  .homepage-square-style .field-name-body {
+    display: none;
+  }
+
+  .homepage-bottom .node-webform {
+    min-height: 0px;
+  }
+}

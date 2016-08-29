@@ -1212,7 +1212,7 @@ a.inline-block {
 
 /* --- WYSIWYG --- */
 hr {
-  border-top-color: #c0b8b2;  
+  border-top-color: #c0b8b2;
 }
 
 .solid-line {
@@ -1273,4 +1273,12 @@ body .bs-callout-blue {
 .pane-content .field-name-body ul li:before {
   position: static;
   padding-right: .5em;
+}
+
+.node-type-research-project .main-content-title {
+  display: none;
+}
+
+.node-type-research-project .pane-title.main-content-title {
+  display: block;
 }

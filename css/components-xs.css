@@ -102,6 +102,11 @@
     font-size: 14px;
   }
 
+  #block-menu-menu-mobile-menu li.first a {
+    background-color: #e1261c;
+    border-color: #ca2219;
+  }
+
   #block-menu-menu-audience-menu--2 {
     margin: 0 -15px;
     margin-top: 5px;

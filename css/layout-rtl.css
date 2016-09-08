@@ -65,6 +65,11 @@
   border-left: none;
 }
 
+.top-nav #block-menu-menu-audience-menu ul.menu.nav > li.first > a {
+  background-color: #e1261c;
+  border-color: #ca2219;
+}
+
 .top-nav #block-menu-menu-audience-menu ul.menu.nav > li.last a {
   border-left: 1px solid #FFFFFF;
 }

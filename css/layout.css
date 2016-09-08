@@ -207,6 +207,11 @@ blockquote {
   border-left: 1px solid #FFFFFF;
 }
 
+.top-nav #block-menu-menu-audience-menu ul.menu.nav > li.first > a {
+  background-color: #e1261c;
+  border-color: #ca2219;
+}
+
 .top-nav #block-menu-menu-audience-menu ul > li.open > a,
 .top-nav #block-menu-menu-audience-menu ul > li.active > a,
 .top-nav #block-menu-menu-audience-menu ul > li:focus > a,

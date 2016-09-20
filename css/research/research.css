@@ -98,6 +98,16 @@
 /** </Faculty Research Projects> **/
 
 /* --- Research fellows & faculty --- */
+.staff-group {
+  clear: both;
+}
+
+.staff-group .views-group {
+  font-size: 1.231em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
 .research-fellows .research-user-row,
 .research-faculty .research-user-row{
   float: left;
@@ -678,7 +688,7 @@ li.translation_ar {
 }
 
 .research-center-top h2 {
-  margin-top: 0px; 
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 

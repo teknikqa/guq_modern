@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xml:lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
+<html lang="<?php print $language->language; ?>" xml:lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
   <head profile="<?php print $grddl_profile; ?>">
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552cff9377870122"></script>
     <script type="text/javascript">addthis.toolbox('.addthis_toolbox');</script>

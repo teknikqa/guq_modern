@@ -21,15 +21,9 @@ function guq_modern_css_alter(&$css) {
 }
 
 /**
- * Implements hook_form_alter().
+ * Implements hook_form_search_block_form_alter().
  */
-function guq_modern_form_alter(array &$form, array &$form_state = array(), $form_id = NULL) {
-  if ($form_id) {
-    switch ($form_id) {
-      case 'search_form':
-        $form['#title'] = t('Search');
-        $form['#title_display'] = 'invisible';
-        break;
-    }
-  }
+function guq_modern_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+  $form['search_block_form']['#title'] = t('Search this site');
+  $form['search_block_form']['#title_display'] = 'invisible';
 }

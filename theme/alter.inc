@@ -19,11 +19,3 @@ function guq_modern_css_alter(&$css) {
     'weight' => 0
   );
 }
-
-/**
- * Implements hook_form_search_block_form_alter().
- */
-function guq_modern_form_search_block_form_alter(&$form, &$form_state, $form_id) {
-  $form['search_block_form']['#title'] = t('Search this site');
-  $form['search_block_form']['#title_display'] = 'invisible';
-}

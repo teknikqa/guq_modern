@@ -1089,6 +1089,10 @@ footer#footer {
   line-height: 20px;
 }
 
+#page-header.affix .top-nav ul.menu.nav > li.first a {
+  color: #FFFFFF;
+}
+
 #page-header.affix #block-menu-menu-secondary-menu {
   display: none;
 }

@@ -1,4 +1,5 @@
-WELCOME
+### WELCOME ###
 
-1) You can just replace the name of "Vartheme2" with you own theme.
-2) You can create a new subtheme from Vartheme2. To do so, documentation for creating sub-theme is here: http://drupal.org/node/1978010.
+This is a sub-theme of the excellent [Bootstrap theme](https://drupal.org/project/bootstrap).
+
+This can also be used as a base theme for other GU-Q websites. Follow the documentation for creating sub-theme here: [https://drupal.org/node/1978010](https://drupal.org/node/1978010).
